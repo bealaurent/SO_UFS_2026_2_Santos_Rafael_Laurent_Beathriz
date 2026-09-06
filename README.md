@@ -25,7 +25,7 @@ O projeto foi executado no Ubuntu via WSL2.
 curl -fsSL [https://ollama.com/install.sh](https://ollama.com/install.sh) | sh
 ollama run qwen2.5:1.5b
 ```
-**Passo 2: Execução do Open WebUI (Docker)
+**Passo 2: Execução do Open WebUI (Docker)**
 ```
 docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
 ```
