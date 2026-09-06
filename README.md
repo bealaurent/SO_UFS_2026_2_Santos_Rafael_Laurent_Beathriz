@@ -1,6 +1,9 @@
 # Inferência Local com Ollama e Open WebUI
+
 **Disciplina:** Sistemas Operacionais - 2026.2 (Universidade Federal de Sergipe)
+
 **Trilha Selecionada:** Trilha A (Chat Local: Ollama + Open WebUI)
+
 **Modelo Selecionado:** Qwen2.5-1.5B-Instruct
 
 ## Vídeo da Atividade
@@ -22,8 +25,7 @@ O projeto foi executado no Ubuntu via WSL2.
 
 **Passo 1: Instalação do Ollama e do Modelo**
 ```bash
-curl -fsSL [https://ollama.com/install.sh](https://ollama.com/install.sh) | sh
-ollama run qwen2.5:1.5b
+curl -fsSL https://ollama.com/install.sh | sh
 ```
 **Passo 2: Execução do Open WebUI (Docker)**
 ```

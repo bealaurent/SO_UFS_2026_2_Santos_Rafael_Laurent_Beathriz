@@ -1,0 +1,1 @@
+Aqui a gente vai colocar os logs dos dados coletados
