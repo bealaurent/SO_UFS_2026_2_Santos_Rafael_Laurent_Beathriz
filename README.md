@@ -17,7 +17,7 @@
 | Matheus de Oliveira Lima  | 202100012062 | Função na atividade |
 | Rafael de Jesus Santos | 202300114489 | Função na atividade |
 | Luan Feitosa Lima Sátiro  | 202300061714 | Função na atividade |
-| Beathriz Laurent Carlos Muniz | 201900050850 | Função na atividade |
+| Beathriz Laurent Carlos Muniz | 201900050850 | Testes |
 
 ## 1. Instalação e Execução (Ambiente WSL2)
 
@@ -25,7 +25,9 @@ O projeto foi executado no Ubuntu via WSL2.
 
 **Passo 1: Instalação do Ollama e do Modelo**
 ```bash
-curl -fsSL https://ollama.com/install.sh | sh
+**Passo 1: Instalação do Ollama e do Modelo**
+```bash
+curl -fsSL [https://ollama.com/install.sh](https://ollama.com/install.sh) | sh ollama pull qwen2.5:1.5b
 ```
 **Passo 2: Execução do Open WebUI (Docker)**
 ```
