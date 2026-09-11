@@ -42,24 +42,24 @@ docker compose up -d ou docker compose up --build
 
 ## 2. Reprodução dos Experimentos (Coleta de Métricas)
 
-### Ambiente WSL2
+### - Ambiente WSL2
 
 Para reproduzir os dados coletados neste trabalho, utilize duas instâncias do terminal WSL.
 
 **Terminal 1 (Monitoramento de CPU/RAM e Threads):**
-```bash
+```
 htop
 ```
 **Terminal 2 (Monitoramento de Chamadas de Sistema - strace):**
 1. Descubra o PID do Ollama:
-```bash
+```
 ps -eLf | grep ollama
 ```
 2. Conecte o strace ao processo principal:
-```bash
+```
 sudo strace -f -c -p PID_AQUI -o logs/strace-resumo.txt
 ```
 
 Enquanto os monitores rodam, envie os prompts de teste via Open WebUI. Interrompa o strace (Ctrl+C) após a IA finalizar a resposta para gerar os logs.
 
-### Ambiente Linux Nativo
+### - Ambiente Linux Nativo
