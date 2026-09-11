@@ -23,12 +23,18 @@
 
 O projeto foi executado no Ubuntu via WSL2 e Linux Nativo. 
 
-Passos para execução via WSL2
+### Pré-requisitos
+Antes de iniciar, certifique-se de ter instalado em sua máquina:
+* [WSL2 (Windows Subsystem for Linux)](https://learn.microsoft.com/pt-br/windows/wsl/install)
+* [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+
+### Passos para execução via WSL2
 
 **Passo 1: Instalação do Ollama e do Modelo**
 ```bash
-curl -fsSL [https://ollama.com/install.sh](https://ollama.com/install.sh) | sh ollama pull qwen2.5:1.5b
-```
+curl -fsSL [https://ollama.com/install.sh](https://ollama.com/install.sh) | sh
+ollama pull qwen2.5:1.5b
+
 **Passo 2: Execução do Open WebUI (Docker)**
 ```
 docker compose up -d ou docker compose up --build
