@@ -31,9 +31,10 @@ Antes de iniciar, certifique-se de ter instalado em sua máquina:
 ### Passos para execução via WSL2
 
 **Passo 1: Instalação do Ollama e do Modelo**
-```bash
+```
 curl -fsSL [https://ollama.com/install.sh](https://ollama.com/install.sh) | sh
 ollama pull qwen2.5:1.5b
+```
 
 **Passo 2: Execução do Open WebUI (Docker)**
 ```
