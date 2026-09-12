@@ -32,13 +32,13 @@ Antes de iniciar, certifique-se de ter instalado em sua máquina:
 
 **Passo 1: Instalação do Ollama e do Modelo**
 ```
-curl -fsSL [https://ollama.com/install.sh](https://ollama.com/install.sh) | sh
+curl -fsSL https://ollama.com/install.sh | sh
 ollama pull qwen2.5:1.5b
 ```
 
 **Passo 2: Execução do Open WebUI (Docker)**
 ```
-docker compose up -d ou docker compose up --build
+docker compose up -d
 ```
 
 ## 2. Reprodução dos Experimentos (Coleta de Métricas)
