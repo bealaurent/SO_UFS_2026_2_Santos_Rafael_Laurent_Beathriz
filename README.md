@@ -16,7 +16,7 @@
 | Samyr Teles Sales Silva | 202300061830 | Função na atividade |
 | Matheus de Oliveira Lima  | 202100012062 | Função na atividade |
 | Rafael de Jesus Santos | 202300114489 | Função na atividade |
-| Luan Feitosa Lima Sátiro  | 202300061714 | Função na atividade |
+| Luan Feitosa Lima Sátiro  | 202300061714 | Reprodução & automatização de testes |
 | Beathriz Laurent Carlos Muniz | 201900050850 | Testes |
 
 ## 1. Instalação e Execução
