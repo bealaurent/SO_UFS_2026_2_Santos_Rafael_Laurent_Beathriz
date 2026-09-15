@@ -7,7 +7,7 @@
 **Modelo Selecionado:** Qwen2.5-1.5B-Instruct
 
 ## Vídeo da Atividade
-
+https://drive.google.com/file/d/1dvbDRjTNwEx_lSXMoAzJ6ffRoggYiHYy/view?usp=drive_link
 
 ## Equipe
 | Nome | Matrícula | Contribuição na Atividade |
