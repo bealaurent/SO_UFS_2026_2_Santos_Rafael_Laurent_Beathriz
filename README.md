@@ -13,7 +13,7 @@ https://drive.google.com/file/d/1dvbDRjTNwEx_lSXMoAzJ6ffRoggYiHYy/view?usp=drive
 | Nome | Matrícula | Contribuição na Atividade |
 | :--- | :--- | :--- |
 | Evelyn Hilthegarden Santana de Jesus | 202300061572 | Função na atividade |
-| Samyr Teles Sales Silva | 202300061830 | Função na atividade |
+| Samyr Teles Sales Silva | 202300061830 | Criação da apresentação |
 | Matheus de Oliveira Lima  | 202100012062 | Função na atividade |
 | Rafael de Jesus Santos | 202300114489 | Execução de Testes |
 | Luan Feitosa Lima Sátiro  | 202300061714 | Reprodução & automatização de testes |
