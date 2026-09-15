@@ -23,16 +23,18 @@
 
 ```text
 SO_UFS_2026_2_Santos_Rafael_Laurent_Beathriz/
-├── docs/                                  # Documentações e relatórios
-│   └── Trabalho de sistemas operacionais.pdf # Slides Apresentação
-├── logs/                                  # Saídas de execução e rastreamentos
-│   └── strace-final-SO_WSL.txt            # Log
-├── scripts/                               # Automações e orquestração de containers
-│   ├── docker-compose.yml                 # Arquivo de configuração do docker
-│   └── testador_automatico.py             # Script para automatizar testes
+├── docs/                                     # Documentações e relatórios
+│   ├── Relatório.pdf                         # Relatório das execuções
+│   └── Slides.pdf                            # Slides Apresentação
+├── logs/                                     # Saídas de execução e rastreamentos
+│   └── strace-final-SO_WSL.txt               # Log
+├── scripts/                                  # Automações e orquestração de containers
+│   ├── docker-compose.yml                    # Arquivo de configuração do docker
+│   ├── testador_automatico_readme.txt        # Guia para rodar script
+│   └── testador_automatico.py                # Script para automatizar testes
 ├── .gitignore
-├── README.md                              # Documentação principal
-└── VIDEO.md                               # Apresentação em vídeo / links
+├── README.md                                 # Documentação principal
+└── VIDEO.md                                  # Link da apresentação em vídeo
 ```
 
 ## 1. Instalação e Execução
