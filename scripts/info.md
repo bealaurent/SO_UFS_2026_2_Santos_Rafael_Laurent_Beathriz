@@ -1,1 +1,0 @@
-Aqui vão os scripts que a gente usou para subir os serviços

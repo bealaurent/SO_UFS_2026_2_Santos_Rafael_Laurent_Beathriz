@@ -17,7 +17,20 @@
 | Matheus de Oliveira Lima  | 202100012062 | Função na atividade |
 | Rafael de Jesus Santos | 202300114489 | Execução de Testes |
 | Luan Feitosa Lima Sátiro  | 202300061714 | Reprodução & automatização de testes |
-| Beathriz Laurent Carlos Muniz | 201900050850 | Testes |
+| Beathriz Laurent Carlos Muniz | 201900050850 | Execução de Testes |
+
+## Estrutura do Repositório
+SO_UFS_2026_2_Santos_Rafael_Laurent_Beathriz/
+├── docs/                                            # Documentações e relatórios
+│   └── Trabalho de sistemas operacionais.pdf        # Slides Apresentação
+├── logs/                                            # Saídas de execução e rastreamentos
+│   └── strace-final-SO_WSL.txt                      # Log
+├── scripts/                                         # Automações e orquestração de containers
+│   ├── docker-compose.yml                           # Arquivo de configuração do docker
+│   └── testador_automatico.py                       #Script para automatizar testes
+├── .gitignore
+├── README.md                                        # Documentação principal
+└── VIDEO.md                                         # Apresentação em vídeo / links
 
 ## 1. Instalação e Execução
 
