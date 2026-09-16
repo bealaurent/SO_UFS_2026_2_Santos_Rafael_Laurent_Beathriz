@@ -12,7 +12,7 @@ https://drive.google.com/file/d/1dvbDRjTNwEx_lSXMoAzJ6ffRoggYiHYy/view?usp=drive
 ## Equipe
 | Nome | Matrícula | Contribuição na Atividade |
 | :--- | :--- | :--- |
-| Evelyn Hilthegarden Santana de Jesus | 202300061572 | Função na atividade |
+| Evelyn Hilthegarden Santana de Jesus | 202300061572 | Complemento e formatação de relatório |
 | Samyr Teles Sales Silva | 202300061830 | Criação da apresentação |
 | Matheus de Oliveira Lima  | 202100012062 | Criação do relatório |
 | Rafael de Jesus Santos | 202300114489 | Execução de Testes |
