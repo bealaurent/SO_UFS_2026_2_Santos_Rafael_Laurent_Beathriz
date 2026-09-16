@@ -14,7 +14,7 @@ https://drive.google.com/file/d/1dvbDRjTNwEx_lSXMoAzJ6ffRoggYiHYy/view?usp=drive
 | :--- | :--- | :--- |
 | Evelyn Hilthegarden Santana de Jesus | 202300061572 | Função na atividade |
 | Samyr Teles Sales Silva | 202300061830 | Criação da apresentação |
-| Matheus de Oliveira Lima  | 202100012062 | Função na atividade |
+| Matheus de Oliveira Lima  | 202100012062 | Criação do relatório |
 | Rafael de Jesus Santos | 202300114489 | Execução de Testes |
 | Luan Feitosa Lima Sátiro  | 202300061714 | Reprodução & automatização de testes |
 | Beathriz Laurent Carlos Muniz | 201900050850 | Execução de Testes |
