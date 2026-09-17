@@ -43,7 +43,7 @@ O projeto foi executado no Ubuntu via WSL2 e Linux Nativo.
 
 ### Pré-requisitos
 Antes de iniciar, certifique-se de ter instalado em sua máquina:
-* [WSL2 (Windows Subsystem for Linux)](https://learn.microsoft.com/pt-br/windows/wsl/install)
+* [WSL2 (Windows Subsystem for Linux)](https://learn.microsoft.com/pt-br/windows/wsl/install) (caso esteja executando em um ambiente windows)
 * [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
 ### Passos para execução via WSL2 e Linux Nativo
