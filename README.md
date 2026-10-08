@@ -20,8 +20,18 @@
 ```text
 SO_UFS_2026_2_Santos_Rafael_Laurent_Beathriz/
 ├── ATV_1                                     # Todo o conteúdo da avaliação 1
+├── dados/
+│   └── corpus_simulado.txt
+├── logs/
+│   └── execucao.log
+└── src/
+    ├── main.py
+    └── mmap_experimento.py  # Compara leitura convencional vs mmap (C1 e C2)
 ├── .gitignore
+├── docker-compose.yml
+├── Dockerfile
 ├── README.md                                 # Documentação principal
+├── requirements.txt
 └── VIDEO.md                                  # Link da apresentação em vídeo
 ```
 
@@ -36,13 +46,7 @@ Antes de iniciar, certifique-se de ter instalado em sua máquina:
 
 ### Passos para execução via WSL2 e Linux Nativo
 
-**Passo 1: Instalação do Ollama e do Modelo no terminal WSL**
-```
-curl -fsSL https://ollama.com/install.sh | sh
-ollama pull qwen2.5:1.5b
-```
-
-**Passo 2: Execução do Open WebUI (Docker) na IDE**
+**Passo 1: Execução via Docker na IDE**
 ```
 docker compose up -d
 ```
