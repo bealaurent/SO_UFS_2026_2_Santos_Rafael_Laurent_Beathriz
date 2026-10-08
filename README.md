@@ -1,13 +1,9 @@
-# Inferência Local com Ollama e Open WebUI
+# Memória, armazenamento, sincronização e desempenho de aplicações de IA generativa
 
 **Disciplina:** Sistemas Operacionais - 2026.2 (Universidade Federal de Sergipe)
 
-**Trilha Selecionada:** Trilha A (Chat Local: Ollama + Open WebUI)
-
-**Modelo Selecionado:** Qwen2.5-1.5B-Instruct
 
 ## Vídeo da Atividade
-https://drive.google.com/file/d/1dvbDRjTNwEx_lSXMoAzJ6ffRoggYiHYy/view?usp=drive_link
 
 ## Equipe
 | Nome | Matrícula | Contribuição na Atividade |
@@ -23,15 +19,7 @@ https://drive.google.com/file/d/1dvbDRjTNwEx_lSXMoAzJ6ffRoggYiHYy/view?usp=drive
 
 ```text
 SO_UFS_2026_2_Santos_Rafael_Laurent_Beathriz/
-├── docs/                                     # Documentações e relatórios
-│   ├── Relatório.pdf                         # Relatório das execuções
-│   └── Slides.pdf                            # Slides Apresentação
-├── logs/                                     # Saídas de execução e rastreamentos
-│   └── strace-final-SO_WSL.txt               # Log
-├── scripts/                                  # Automações e orquestração de containers
-│   ├── docker-compose.yml                    # Arquivo de configuração do docker
-│   ├── testador_automatico_readme.txt        # Guia para rodar script
-│   └── testador_automatico.py                # Script para automatizar testes
+├── ATV_1                                     # Todo o conteúdo da avaliação 1
 ├── .gitignore
 ├── README.md                                 # Documentação principal
 └── VIDEO.md                                  # Link da apresentação em vídeo
@@ -79,6 +67,6 @@ ps -eLf | grep ollama
 sudo strace -f -c -p PID_AQUI -o logs/strace-resumo.txt
 ```
 
-Enquanto os monitores rodam, envie os prompts de teste via Open WebUI. Interrompa o strace (Ctrl+C) após a IA finalizar a resposta para gerar os logs.
+
 
 Os procedimentos de monitoramento e coleta de métricas são os mesmos utilizados no ambiente WSL2 e Linux Nativo, permitindo comparar os resultados obtidos nos dois ambientes.
