@@ -25,6 +25,6 @@ if __name__ == "__main__":
         with open(caminho, "w") as f:
             f.write("Trecho de contexto simulado para IA. " * 1000000)
             
-    print("--- Iniciando Experimentos de E/S ---")
+    print("--- Iniciando Experimentos ---")
     testar_leitura_convencional(caminho)
     testar_leitura_mmap(caminho)

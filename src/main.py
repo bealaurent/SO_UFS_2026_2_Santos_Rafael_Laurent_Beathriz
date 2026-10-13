@@ -39,10 +39,19 @@ def main():
     caminho_dados = "dados/corpus_simulado.txt"
     os.makedirs("dados", exist_ok=True)
     
+    texto_base = (
+        "SISTEMAS OPERACIONAIS E GERENCIAMENTO DE MEMÓRIA: "
+        "O gerenciamento de memória principal é uma das funções mais críticas de um SO. "
+        "A paginação divide a memória virtual em páginas e a RAM em quadros (frames). "
+        "PAGE CACHE E E/S DE ARQUIVOS: O cache de páginas armazena dados recentes na RAM para acelerar leituras. "
+        "CONVENCIONAL VS MMAP: O mmap mapeia arquivos diretamente no espaço virtual, evitando cópias redundantes de dados. "
+        "APLICAÇÕES DE IA E RAG: RAG e embeddings mobilizam intensamente RAM, VSZ, cache e filas concorrentes. \n"
+    )
+
     if not os.path.exists(caminho_dados):
-        print("A gerar corpus de teste (isto pode demorar alguns segundos)...")
+        print("A gerar corpus temático de teste para E/S...")
         with open(caminho_dados, "w", encoding="utf-8") as f:
-            f.write("Trecho de contexto simulado para IA. " * 500000)
+            f.write(texto_base * 300000)
             
     print("Estado inicial da memória:")
     monitorar_memoria_processo()
