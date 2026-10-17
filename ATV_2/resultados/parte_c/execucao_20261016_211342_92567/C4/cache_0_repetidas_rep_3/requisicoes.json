@@ -1,0 +1,470 @@
+[
+  {
+    "consulta": "O que é memória virtual e paginação?",
+    "http": 200,
+    "cliente_s": 0.0036672650021500885,
+    "corpo": {
+      "consulta": "O que é memória virtual e paginação?",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O sistema operacional gerencia a memória principal para compartilhar a RAM entre os processos. A memória virtual permite que cada processo use endereços próprios. A paginação organiza a memória em páginas e quadros. Uma falta de página ocor",
+      "trechos": [
+        {
+          "documento": "memoria.txt",
+          "posicao": 0,
+          "similaridade": 0.6637,
+          "caracteres": 399
+        },
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.4449,
+          "caracteres": 397
+        },
+        {
+          "documento": "memoria.txt",
+          "posicao": 1,
+          "similaridade": 0.4009,
+          "caracteres": 2
+        }
+      ],
+      "contexto_bytes": 829,
+      "contexto_tokens_aproximados": 122,
+      "recuperacao_s": 0.000835,
+      "resposta_s": 0.001049,
+      "processamento_original_s": 0.001884,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 7.6e-05,
+      "tempo_total_s": 0.002248,
+      "consumidor": "consumidor-1"
+    }
+  },
+  {
+    "consulta": "O que é memória virtual e paginação?",
+    "http": 200,
+    "cliente_s": 0.0026317829979234375,
+    "corpo": {
+      "consulta": "O que é memória virtual e paginação?",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O sistema operacional gerencia a memória principal para compartilhar a RAM entre os processos. A memória virtual permite que cada processo use endereços próprios. A paginação organiza a memória em páginas e quadros. Uma falta de página ocor",
+      "trechos": [
+        {
+          "documento": "memoria.txt",
+          "posicao": 0,
+          "similaridade": 0.6637,
+          "caracteres": 399
+        },
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.4449,
+          "caracteres": 397
+        },
+        {
+          "documento": "memoria.txt",
+          "posicao": 1,
+          "similaridade": 0.4009,
+          "caracteres": 2
+        }
+      ],
+      "contexto_bytes": 829,
+      "contexto_tokens_aproximados": 122,
+      "recuperacao_s": 0.00064,
+      "resposta_s": 0.001059,
+      "processamento_original_s": 0.001699,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 8.3e-05,
+      "tempo_total_s": 0.002035,
+      "consumidor": "consumidor-2"
+    }
+  },
+  {
+    "consulta": "O que é memória virtual e paginação?",
+    "http": 200,
+    "cliente_s": 0.0025778929993975908,
+    "corpo": {
+      "consulta": "O que é memória virtual e paginação?",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O sistema operacional gerencia a memória principal para compartilhar a RAM entre os processos. A memória virtual permite que cada processo use endereços próprios. A paginação organiza a memória em páginas e quadros. Uma falta de página ocor",
+      "trechos": [
+        {
+          "documento": "memoria.txt",
+          "posicao": 0,
+          "similaridade": 0.6637,
+          "caracteres": 399
+        },
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.4449,
+          "caracteres": 397
+        },
+        {
+          "documento": "memoria.txt",
+          "posicao": 1,
+          "similaridade": 0.4009,
+          "caracteres": 2
+        }
+      ],
+      "contexto_bytes": 829,
+      "contexto_tokens_aproximados": 122,
+      "recuperacao_s": 0.000556,
+      "resposta_s": 0.00103,
+      "processamento_original_s": 0.001586,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 5.9e-05,
+      "tempo_total_s": 0.002034,
+      "consumidor": "consumidor-1"
+    }
+  },
+  {
+    "consulta": "O que é memória virtual e paginação?",
+    "http": 200,
+    "cliente_s": 0.0025524750017211773,
+    "corpo": {
+      "consulta": "O que é memória virtual e paginação?",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O sistema operacional gerencia a memória principal para compartilhar a RAM entre os processos. A memória virtual permite que cada processo use endereços próprios. A paginação organiza a memória em páginas e quadros. Uma falta de página ocor",
+      "trechos": [
+        {
+          "documento": "memoria.txt",
+          "posicao": 0,
+          "similaridade": 0.6637,
+          "caracteres": 399
+        },
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.4449,
+          "caracteres": 397
+        },
+        {
+          "documento": "memoria.txt",
+          "posicao": 1,
+          "similaridade": 0.4009,
+          "caracteres": 2
+        }
+      ],
+      "contexto_bytes": 829,
+      "contexto_tokens_aproximados": 122,
+      "recuperacao_s": 0.000657,
+      "resposta_s": 0.001044,
+      "processamento_original_s": 0.001701,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 7.4e-05,
+      "tempo_total_s": 0.002035,
+      "consumidor": "consumidor-2"
+    }
+  },
+  {
+    "consulta": "O que é memória virtual e paginação?",
+    "http": 200,
+    "cliente_s": 0.002525534997403156,
+    "corpo": {
+      "consulta": "O que é memória virtual e paginação?",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O sistema operacional gerencia a memória principal para compartilhar a RAM entre os processos. A memória virtual permite que cada processo use endereços próprios. A paginação organiza a memória em páginas e quadros. Uma falta de página ocor",
+      "trechos": [
+        {
+          "documento": "memoria.txt",
+          "posicao": 0,
+          "similaridade": 0.6637,
+          "caracteres": 399
+        },
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.4449,
+          "caracteres": 397
+        },
+        {
+          "documento": "memoria.txt",
+          "posicao": 1,
+          "similaridade": 0.4009,
+          "caracteres": 2
+        }
+      ],
+      "contexto_bytes": 829,
+      "contexto_tokens_aproximados": 122,
+      "recuperacao_s": 0.000545,
+      "resposta_s": 0.001156,
+      "processamento_original_s": 0.001701,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 6.8e-05,
+      "tempo_total_s": 0.001999,
+      "consumidor": "consumidor-1"
+    }
+  },
+  {
+    "consulta": "O que é memória virtual e paginação?",
+    "http": 200,
+    "cliente_s": 0.002313607001269702,
+    "corpo": {
+      "consulta": "O que é memória virtual e paginação?",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O sistema operacional gerencia a memória principal para compartilhar a RAM entre os processos. A memória virtual permite que cada processo use endereços próprios. A paginação organiza a memória em páginas e quadros. Uma falta de página ocor",
+      "trechos": [
+        {
+          "documento": "memoria.txt",
+          "posicao": 0,
+          "similaridade": 0.6637,
+          "caracteres": 399
+        },
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.4449,
+          "caracteres": 397
+        },
+        {
+          "documento": "memoria.txt",
+          "posicao": 1,
+          "similaridade": 0.4009,
+          "caracteres": 2
+        }
+      ],
+      "contexto_bytes": 829,
+      "contexto_tokens_aproximados": 122,
+      "recuperacao_s": 0.000466,
+      "resposta_s": 0.001053,
+      "processamento_original_s": 0.001519,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 6.3e-05,
+      "tempo_total_s": 0.001804,
+      "consumidor": "consumidor-2"
+    }
+  },
+  {
+    "consulta": "O que é memória virtual e paginação?",
+    "http": 200,
+    "cliente_s": 0.002451135005685501,
+    "corpo": {
+      "consulta": "O que é memória virtual e paginação?",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O sistema operacional gerencia a memória principal para compartilhar a RAM entre os processos. A memória virtual permite que cada processo use endereços próprios. A paginação organiza a memória em páginas e quadros. Uma falta de página ocor",
+      "trechos": [
+        {
+          "documento": "memoria.txt",
+          "posicao": 0,
+          "similaridade": 0.6637,
+          "caracteres": 399
+        },
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.4449,
+          "caracteres": 397
+        },
+        {
+          "documento": "memoria.txt",
+          "posicao": 1,
+          "similaridade": 0.4009,
+          "caracteres": 2
+        }
+      ],
+      "contexto_bytes": 829,
+      "contexto_tokens_aproximados": 122,
+      "recuperacao_s": 0.000556,
+      "resposta_s": 0.001009,
+      "processamento_original_s": 0.001566,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 7.6e-05,
+      "tempo_total_s": 0.001867,
+      "consumidor": "consumidor-1"
+    }
+  },
+  {
+    "consulta": "O que é memória virtual e paginação?",
+    "http": 200,
+    "cliente_s": 0.002385411993600428,
+    "corpo": {
+      "consulta": "O que é memória virtual e paginação?",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O sistema operacional gerencia a memória principal para compartilhar a RAM entre os processos. A memória virtual permite que cada processo use endereços próprios. A paginação organiza a memória em páginas e quadros. Uma falta de página ocor",
+      "trechos": [
+        {
+          "documento": "memoria.txt",
+          "posicao": 0,
+          "similaridade": 0.6637,
+          "caracteres": 399
+        },
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.4449,
+          "caracteres": 397
+        },
+        {
+          "documento": "memoria.txt",
+          "posicao": 1,
+          "similaridade": 0.4009,
+          "caracteres": 2
+        }
+      ],
+      "contexto_bytes": 829,
+      "contexto_tokens_aproximados": 122,
+      "recuperacao_s": 0.000581,
+      "resposta_s": 0.001012,
+      "processamento_original_s": 0.001594,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 7.9e-05,
+      "tempo_total_s": 0.00187,
+      "consumidor": "consumidor-2"
+    }
+  },
+  {
+    "consulta": "O que é memória virtual e paginação?",
+    "http": 200,
+    "cliente_s": 0.002492502004315611,
+    "corpo": {
+      "consulta": "O que é memória virtual e paginação?",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O sistema operacional gerencia a memória principal para compartilhar a RAM entre os processos. A memória virtual permite que cada processo use endereços próprios. A paginação organiza a memória em páginas e quadros. Uma falta de página ocor",
+      "trechos": [
+        {
+          "documento": "memoria.txt",
+          "posicao": 0,
+          "similaridade": 0.6637,
+          "caracteres": 399
+        },
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.4449,
+          "caracteres": 397
+        },
+        {
+          "documento": "memoria.txt",
+          "posicao": 1,
+          "similaridade": 0.4009,
+          "caracteres": 2
+        }
+      ],
+      "contexto_bytes": 829,
+      "contexto_tokens_aproximados": 122,
+      "recuperacao_s": 0.000635,
+      "resposta_s": 0.001006,
+      "processamento_original_s": 0.001641,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 7.4e-05,
+      "tempo_total_s": 0.001913,
+      "consumidor": "consumidor-1"
+    }
+  },
+  {
+    "consulta": "O que é memória virtual e paginação?",
+    "http": 200,
+    "cliente_s": 0.002405990999250207,
+    "corpo": {
+      "consulta": "O que é memória virtual e paginação?",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O sistema operacional gerencia a memória principal para compartilhar a RAM entre os processos. A memória virtual permite que cada processo use endereços próprios. A paginação organiza a memória em páginas e quadros. Uma falta de página ocor",
+      "trechos": [
+        {
+          "documento": "memoria.txt",
+          "posicao": 0,
+          "similaridade": 0.6637,
+          "caracteres": 399
+        },
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.4449,
+          "caracteres": 397
+        },
+        {
+          "documento": "memoria.txt",
+          "posicao": 1,
+          "similaridade": 0.4009,
+          "caracteres": 2
+        }
+      ],
+      "contexto_bytes": 829,
+      "contexto_tokens_aproximados": 122,
+      "recuperacao_s": 0.000498,
+      "resposta_s": 0.001043,
+      "processamento_original_s": 0.00154,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 7.8e-05,
+      "tempo_total_s": 0.001819,
+      "consumidor": "consumidor-2"
+    }
+  },
+  {
+    "consulta": "O que é memória virtual e paginação?",
+    "http": 200,
+    "cliente_s": 0.0024594610003987327,
+    "corpo": {
+      "consulta": "O que é memória virtual e paginação?",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O sistema operacional gerencia a memória principal para compartilhar a RAM entre os processos. A memória virtual permite que cada processo use endereços próprios. A paginação organiza a memória em páginas e quadros. Uma falta de página ocor",
+      "trechos": [
+        {
+          "documento": "memoria.txt",
+          "posicao": 0,
+          "similaridade": 0.6637,
+          "caracteres": 399
+        },
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.4449,
+          "caracteres": 397
+        },
+        {
+          "documento": "memoria.txt",
+          "posicao": 1,
+          "similaridade": 0.4009,
+          "caracteres": 2
+        }
+      ],
+      "contexto_bytes": 829,
+      "contexto_tokens_aproximados": 122,
+      "recuperacao_s": 0.000503,
+      "resposta_s": 0.001059,
+      "processamento_original_s": 0.001562,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 7.6e-05,
+      "tempo_total_s": 0.001846,
+      "consumidor": "consumidor-1"
+    }
+  },
+  {
+    "consulta": "O que é memória virtual e paginação?",
+    "http": 200,
+    "cliente_s": 0.0023905409980216064,
+    "corpo": {
+      "consulta": "O que é memória virtual e paginação?",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O sistema operacional gerencia a memória principal para compartilhar a RAM entre os processos. A memória virtual permite que cada processo use endereços próprios. A paginação organiza a memória em páginas e quadros. Uma falta de página ocor",
+      "trechos": [
+        {
+          "documento": "memoria.txt",
+          "posicao": 0,
+          "similaridade": 0.6637,
+          "caracteres": 399
+        },
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.4449,
+          "caracteres": 397
+        },
+        {
+          "documento": "memoria.txt",
+          "posicao": 1,
+          "similaridade": 0.4009,
+          "caracteres": 2
+        }
+      ],
+      "contexto_bytes": 829,
+      "contexto_tokens_aproximados": 122,
+      "recuperacao_s": 0.000495,
+      "resposta_s": 0.001024,
+      "processamento_original_s": 0.001519,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 6.6e-05,
+      "tempo_total_s": 0.001814,
+      "consumidor": "consumidor-2"
+    }
+  }
+]

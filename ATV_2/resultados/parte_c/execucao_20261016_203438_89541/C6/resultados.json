@@ -1,0 +1,24 @@
+[
+  {
+    "configuracao": "C6",
+    "repeticao": 1,
+    "http_consulta_invalida": 400,
+    "http_saude_apos_falha": 200,
+    "http_consulta_valida_apos_falha": 200,
+    "exit_code_corpus_ausente": 2,
+    "falhas_no_servidor": 0,
+    "rss_pico_amostrado_kib": 26752,
+    "vsz_pico_amostrado_kib": 258976,
+    "threads_max": 3,
+    "rss_final_kib": 26752,
+    "vsz_final_kib": 258976,
+    "minflt_delta": 96,
+    "majflt_delta": 0,
+    "read_bytes_delta": 0,
+    "write_bytes_delta": 65536,
+    "rchar_delta": 37064,
+    "wchar_delta": 1557,
+    "syscr_delta": 11,
+    "syscw_delta": 26
+  }
+]

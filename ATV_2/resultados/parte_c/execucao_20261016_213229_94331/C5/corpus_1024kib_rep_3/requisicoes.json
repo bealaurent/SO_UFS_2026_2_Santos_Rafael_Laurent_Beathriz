@@ -1,0 +1,238 @@
+[
+  {
+    "consulta": "Explique memória virtual paginação, solicitação número 1.",
+    "http": 200,
+    "cliente_s": 0.09297750900441315,
+    "corpo": {
+      "consulta": "Explique memória virtual paginação, solicitação número 1.",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: memoria virtual pagina cache sistemas operacionais dados RAG embeddings. memoria virtual pagina cache sistemas operacionais dados RAG embeddings. memoria virtual pagina cache sistemas operacionais dados RAG embeddings. memoria virtual pagin",
+      "trechos": [
+        {
+          "documento": "corpus_c5.txt",
+          "posicao": 0,
+          "similaridade": 0.023,
+          "caracteres": 393
+        },
+        {
+          "documento": "corpus_c5.txt",
+          "posicao": 2,
+          "similaridade": 0.023,
+          "caracteres": 399
+        },
+        {
+          "documento": "corpus_c5.txt",
+          "posicao": 4,
+          "similaridade": 0.023,
+          "caracteres": 6
+        }
+      ],
+      "contexto_bytes": 800,
+      "contexto_tokens_aproximados": 100,
+      "recuperacao_s": 0.087614,
+      "resposta_s": 0.001405,
+      "processamento_original_s": 0.089019,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 8.8e-05,
+      "tempo_total_s": 0.092019,
+      "consumidor": "consumidor-1"
+    }
+  },
+  {
+    "consulta": "Explique cache de páginas Linux, solicitação número 2.",
+    "http": 200,
+    "cliente_s": 0.09248102900164668,
+    "corpo": {
+      "consulta": "Explique cache de páginas Linux, solicitação número 2.",
+      "resposta": "Nenhum trecho relevante foi recuperado para esta consulta.",
+      "trechos": [],
+      "contexto_bytes": 0,
+      "contexto_tokens_aproximados": 0,
+      "recuperacao_s": 0.089755,
+      "resposta_s": 0.001046,
+      "processamento_original_s": 0.090801,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 0.000111,
+      "tempo_total_s": 0.091247,
+      "consumidor": "consumidor-2"
+    }
+  },
+  {
+    "consulta": "Explique produtores consumidores mutex, solicitação número 3.",
+    "http": 200,
+    "cliente_s": 0.04991691499890294,
+    "corpo": {
+      "consulta": "Explique produtores consumidores mutex, solicitação número 3.",
+      "resposta": "Nenhum trecho relevante foi recuperado para esta consulta.",
+      "trechos": [],
+      "contexto_bytes": 0,
+      "contexto_tokens_aproximados": 0,
+      "recuperacao_s": 0.047282,
+      "resposta_s": 0.001082,
+      "processamento_original_s": 0.048364,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 7.3e-05,
+      "tempo_total_s": 0.049106,
+      "consumidor": "consumidor-2"
+    }
+  },
+  {
+    "consulta": "Explique RAG embeddings índice, solicitação número 4.",
+    "http": 200,
+    "cliente_s": 0.09028520600259071,
+    "corpo": {
+      "consulta": "Explique RAG embeddings índice, solicitação número 4.",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: sistemas operacionais dados RAG embeddings. memoria virtual pagina cache sistemas operacionais dados RAG embeddings. memo sistemas operacionais dados RAG embeddings. memoria virtual pagina cache sistemas operacionais dados RAG embeddings. m",
+      "trechos": [
+        {
+          "documento": "corpus_c5.txt",
+          "posicao": 2638,
+          "similaridade": 0.4536,
+          "caracteres": 121
+        },
+        {
+          "documento": "corpus_c5.txt",
+          "posicao": 1,
+          "similaridade": 0.3918,
+          "caracteres": 396
+        },
+        {
+          "documento": "corpus_c5.txt",
+          "posicao": 4,
+          "similaridade": 0.3918,
+          "caracteres": 281
+        }
+      ],
+      "contexto_bytes": 800,
+      "contexto_tokens_aproximados": 99,
+      "recuperacao_s": 0.087825,
+      "resposta_s": 0.001121,
+      "processamento_original_s": 0.088946,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 0.000102,
+      "tempo_total_s": 0.089426,
+      "consumidor": "consumidor-1"
+    }
+  },
+  {
+    "consulta": "Explique arquivos mmap, solicitação número 5.",
+    "http": 200,
+    "cliente_s": 0.08939405799901579,
+    "corpo": {
+      "consulta": "Explique arquivos mmap, solicitação número 5.",
+      "resposta": "Nenhum trecho relevante foi recuperado para esta consulta.",
+      "trechos": [],
+      "contexto_bytes": 0,
+      "contexto_tokens_aproximados": 0,
+      "recuperacao_s": 0.056603,
+      "resposta_s": 0.001048,
+      "processamento_original_s": 0.057651,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 0.005171,
+      "tempo_total_s": 0.083514,
+      "consumidor": "consumidor-2"
+    }
+  },
+  {
+    "consulta": "Explique swap memória virtual, solicitação número 6.",
+    "http": 200,
+    "cliente_s": 0.08947470800194424,
+    "corpo": {
+      "consulta": "Explique swap memória virtual, solicitação número 6.",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: memoria virtual pagina cache sistemas operacionais dados RAG embeddings. memoria virtual pagina cache sistemas operacionais dados RAG embeddings. memoria virtual pagina cache sistemas operacionais dados RAG embeddings. memoria virtual pagin",
+      "trechos": [
+        {
+          "documento": "corpus_c5.txt",
+          "posicao": 0,
+          "similaridade": 0.1383,
+          "caracteres": 393
+        },
+        {
+          "documento": "corpus_c5.txt",
+          "posicao": 2,
+          "similaridade": 0.1383,
+          "caracteres": 399
+        },
+        {
+          "documento": "corpus_c5.txt",
+          "posicao": 4,
+          "similaridade": 0.1383,
+          "caracteres": 6
+        }
+      ],
+      "contexto_bytes": 800,
+      "contexto_tokens_aproximados": 100,
+      "recuperacao_s": 0.087172,
+      "resposta_s": 0.001042,
+      "processamento_original_s": 0.088214,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 8.1e-05,
+      "tempo_total_s": 0.088685,
+      "consumidor": "consumidor-1"
+    }
+  },
+  {
+    "consulta": "Explique memória virtual paginação, solicitação número 7.",
+    "http": 200,
+    "cliente_s": 0.09021307100192644,
+    "corpo": {
+      "consulta": "Explique memória virtual paginação, solicitação número 7.",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: memoria virtual pagina cache sistemas operacionais dados RAG embeddings. memoria virtual pagina cache sistemas operacionais dados RAG embeddings. memoria virtual pagina cache sistemas operacionais dados RAG embeddings. memoria virtual pagin",
+      "trechos": [
+        {
+          "documento": "corpus_c5.txt",
+          "posicao": 0,
+          "similaridade": 0.1383,
+          "caracteres": 393
+        },
+        {
+          "documento": "corpus_c5.txt",
+          "posicao": 2,
+          "similaridade": 0.1383,
+          "caracteres": 399
+        },
+        {
+          "documento": "corpus_c5.txt",
+          "posicao": 4,
+          "similaridade": 0.1383,
+          "caracteres": 6
+        }
+      ],
+      "contexto_bytes": 800,
+      "contexto_tokens_aproximados": 100,
+      "recuperacao_s": 0.049471,
+      "resposta_s": 0.001079,
+      "processamento_original_s": 0.050549,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 0.010149,
+      "tempo_total_s": 0.089394,
+      "consumidor": "consumidor-2"
+    }
+  },
+  {
+    "consulta": "Explique cache de páginas Linux, solicitação número 8.",
+    "http": 200,
+    "cliente_s": 0.08949687999847811,
+    "corpo": {
+      "consulta": "Explique cache de páginas Linux, solicitação número 8.",
+      "resposta": "Nenhum trecho relevante foi recuperado para esta consulta.",
+      "trechos": [],
+      "contexto_bytes": 0,
+      "contexto_tokens_aproximados": 0,
+      "recuperacao_s": 0.087146,
+      "resposta_s": 0.001053,
+      "processamento_original_s": 0.088199,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 0.000114,
+      "tempo_total_s": 0.088654,
+      "consumidor": "consumidor-1"
+    }
+  }
+]

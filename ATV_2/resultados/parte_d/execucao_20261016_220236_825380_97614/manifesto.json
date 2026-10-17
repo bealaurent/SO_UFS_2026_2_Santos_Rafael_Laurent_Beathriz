@@ -1,0 +1,15 @@
+{
+  "horario_utc": "2026-10-17T01:02:36.828+00:00",
+  "comando": "scripts/experimentos_d.py --repeticoes 3 --trabalhadores 4 --espera-ms 30",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "kernel": "7.0.0-31-generic",
+  "pid": 97614,
+  "commit_git": null,
+  "sha256_script": "bfb8f75959e948dab64e5b0ee50dce782b35b1ee662c74038cda4330aef02b7b",
+  "sha256_cache_original": "8ec50d7825bd52fc9c666b5010903df222ce0e099804f9565eee2d2caa65e9fe",
+  "consulta_sha256": "b14165dac2cab0158e83102ad2f9090c1f90d9301c370019be5a51eeb3ba46f1",
+  "repeticoes": 3,
+  "trabalhadores": 4,
+  "espera_ms": 30,
+  "nota": "D1 força ordem de misses com barreira; não comparar tempos D1/D2 como benchmark puro."
+}

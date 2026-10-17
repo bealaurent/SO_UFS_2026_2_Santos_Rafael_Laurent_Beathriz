@@ -1,0 +1,4 @@
+GenResearch iniciado em http://127.0.0.1:34483
+Rotas: GET /saude, GET /status, POST /consultar, POST /documentos
+Para encerrar: Ctrl+C
+Encerrando o serviço...

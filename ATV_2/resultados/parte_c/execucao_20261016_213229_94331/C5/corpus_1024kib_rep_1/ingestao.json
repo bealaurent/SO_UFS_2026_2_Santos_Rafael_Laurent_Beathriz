@@ -1,0 +1,10 @@
+{
+  "http": 200,
+  "cliente_s": 0.20555681699624984,
+  "corpo": {
+    "documento": "corpus_c5.txt",
+    "bytes": 1048576,
+    "trechos": 2639,
+    "ingestao_s": 0.200981
+  }
+}

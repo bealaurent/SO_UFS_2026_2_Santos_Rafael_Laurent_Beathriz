@@ -1,0 +1,88 @@
+{"horario_utc": "2026-10-17T00:13:43.107+00:00", "evento": "inicializacao", "thread": "MainThread", "trabalhadores": 2, "capacidade_fila": 8, "capacidade_cache": 0, "banco": "/home/rafael/Documents/SO/SO_Code/AV2_Parte_B_GenResearch_complemento/resultados/parte_c/execucao_20261016_211342_92567/C4/cache_0_distintas_rep_2/indice.sqlite3"}
+{"horario_utc": "2026-10-17T00:13:43.126+00:00", "evento": "http", "thread": "Thread-1 (process_request_thread)", "mensagem": "\"GET /saude HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:13:43.127+00:00", "evento": "producao", "thread": "Thread-2 (process_request_thread)", "tamanho_fila": 1, "caracteres_consulta": 57}
+{"horario_utc": "2026-10-17T00:13:43.128+00:00", "evento": "consumo", "thread": "consumidor-1", "espera_fila_s": 7.4e-05, "tamanho_fila": 0}
+{"horario_utc": "2026-10-17T00:13:43.128+00:00", "evento": "cache_miss", "thread": "consumidor-1", "chave": "ba3c6bb73392"}
+{"horario_utc": "2026-10-17T00:13:43.128+00:00", "evento": "recuperacao", "thread": "consumidor-1", "trechos": 3, "contexto_bytes": 829, "recuperacao_s": 0.000795}
+{"horario_utc": "2026-10-17T00:13:43.130+00:00", "evento": "geracao_simulada", "thread": "consumidor-1", "duracao_s": 0.001111, "caracteres_resposta": 292}
+{"horario_utc": "2026-10-17T00:13:43.130+00:00", "evento": "consulta_concluida", "thread": "consumidor-1", "cache": "miss", "duracao_s": 0.002275}
+{"horario_utc": "2026-10-17T00:13:43.131+00:00", "evento": "http", "thread": "Thread-2 (process_request_thread)", "mensagem": "\"POST /consultar HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:13:43.131+00:00", "evento": "producao", "thread": "Thread-3 (process_request_thread)", "tamanho_fila": 1, "caracteres_consulta": 54}
+{"horario_utc": "2026-10-17T00:13:43.131+00:00", "evento": "consumo", "thread": "consumidor-2", "espera_fila_s": 8e-05, "tamanho_fila": 0}
+{"horario_utc": "2026-10-17T00:13:43.131+00:00", "evento": "cache_miss", "thread": "consumidor-2", "chave": "e252e2fa0a8f"}
+{"horario_utc": "2026-10-17T00:13:43.132+00:00", "evento": "recuperacao", "thread": "consumidor-2", "trechos": 3, "contexto_bytes": 827, "recuperacao_s": 0.000616}
+{"horario_utc": "2026-10-17T00:13:43.133+00:00", "evento": "geracao_simulada", "thread": "consumidor-2", "duracao_s": 0.001331, "caracteres_resposta": 292}
+{"horario_utc": "2026-10-17T00:13:43.133+00:00", "evento": "consulta_concluida", "thread": "consumidor-2", "cache": "miss", "duracao_s": 0.002276}
+{"horario_utc": "2026-10-17T00:13:43.134+00:00", "evento": "http", "thread": "Thread-3 (process_request_thread)", "mensagem": "\"POST /consultar HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:13:43.134+00:00", "evento": "producao", "thread": "Thread-4 (process_request_thread)", "tamanho_fila": 1, "caracteres_consulta": 61}
+{"horario_utc": "2026-10-17T00:13:43.134+00:00", "evento": "consumo", "thread": "consumidor-1", "espera_fila_s": 7.6e-05, "tamanho_fila": 0}
+{"horario_utc": "2026-10-17T00:13:43.134+00:00", "evento": "cache_miss", "thread": "consumidor-1", "chave": "71cb3896b055"}
+{"horario_utc": "2026-10-17T00:13:43.135+00:00", "evento": "recuperacao", "thread": "consumidor-1", "trechos": 3, "contexto_bytes": 825, "recuperacao_s": 0.00062}
+{"horario_utc": "2026-10-17T00:13:43.136+00:00", "evento": "geracao_simulada", "thread": "consumidor-1", "duracao_s": 0.001101, "caracteres_resposta": 292}
+{"horario_utc": "2026-10-17T00:13:43.136+00:00", "evento": "consulta_concluida", "thread": "consumidor-1", "cache": "miss", "duracao_s": 0.002008}
+{"horario_utc": "2026-10-17T00:13:43.136+00:00", "evento": "http", "thread": "Thread-4 (process_request_thread)", "mensagem": "\"POST /consultar HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:13:43.137+00:00", "evento": "producao", "thread": "Thread-5 (process_request_thread)", "tamanho_fila": 1, "caracteres_consulta": 53}
+{"horario_utc": "2026-10-17T00:13:43.137+00:00", "evento": "consumo", "thread": "consumidor-2", "espera_fila_s": 9.3e-05, "tamanho_fila": 0}
+{"horario_utc": "2026-10-17T00:13:43.137+00:00", "evento": "cache_miss", "thread": "consumidor-2", "chave": "134b9d87de63"}
+{"horario_utc": "2026-10-17T00:13:43.137+00:00", "evento": "recuperacao", "thread": "consumidor-2", "trechos": 2, "contexto_bytes": 456, "recuperacao_s": 0.000512}
+{"horario_utc": "2026-10-17T00:13:43.138+00:00", "evento": "geracao_simulada", "thread": "consumidor-2", "duracao_s": 0.001011, "caracteres_resposta": 292}
+{"horario_utc": "2026-10-17T00:13:43.138+00:00", "evento": "consulta_concluida", "thread": "consumidor-2", "cache": "miss", "duracao_s": 0.001849}
+{"horario_utc": "2026-10-17T00:13:43.139+00:00", "evento": "http", "thread": "Thread-5 (process_request_thread)", "mensagem": "\"POST /consultar HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:13:43.139+00:00", "evento": "producao", "thread": "Thread-6 (process_request_thread)", "tamanho_fila": 1, "caracteres_consulta": 45}
+{"horario_utc": "2026-10-17T00:13:43.139+00:00", "evento": "consumo", "thread": "consumidor-1", "espera_fila_s": 7.5e-05, "tamanho_fila": 0}
+{"horario_utc": "2026-10-17T00:13:43.139+00:00", "evento": "cache_miss", "thread": "consumidor-1", "chave": "9657a8ddab3b"}
+{"horario_utc": "2026-10-17T00:13:43.140+00:00", "evento": "recuperacao", "thread": "consumidor-1", "trechos": 3, "contexto_bytes": 827, "recuperacao_s": 0.000604}
+{"horario_utc": "2026-10-17T00:13:43.141+00:00", "evento": "geracao_simulada", "thread": "consumidor-1", "duracao_s": 0.001014, "caracteres_resposta": 292}
+{"horario_utc": "2026-10-17T00:13:43.141+00:00", "evento": "consulta_concluida", "thread": "consumidor-1", "cache": "miss", "duracao_s": 0.00191}
+{"horario_utc": "2026-10-17T00:13:43.141+00:00", "evento": "http", "thread": "Thread-6 (process_request_thread)", "mensagem": "\"POST /consultar HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:13:43.142+00:00", "evento": "producao", "thread": "Thread-7 (process_request_thread)", "tamanho_fila": 1, "caracteres_consulta": 52}
+{"horario_utc": "2026-10-17T00:13:43.142+00:00", "evento": "consumo", "thread": "consumidor-2", "espera_fila_s": 9.6e-05, "tamanho_fila": 0}
+{"horario_utc": "2026-10-17T00:13:43.142+00:00", "evento": "cache_miss", "thread": "consumidor-2", "chave": "adc35c09d604"}
+{"horario_utc": "2026-10-17T00:13:43.142+00:00", "evento": "recuperacao", "thread": "consumidor-2", "trechos": 3, "contexto_bytes": 829, "recuperacao_s": 0.000462}
+{"horario_utc": "2026-10-17T00:13:43.144+00:00", "evento": "geracao_simulada", "thread": "consumidor-2", "duracao_s": 0.00134, "caracteres_resposta": 292}
+{"horario_utc": "2026-10-17T00:13:43.144+00:00", "evento": "consulta_concluida", "thread": "consumidor-2", "cache": "miss", "duracao_s": 0.002238}
+{"horario_utc": "2026-10-17T00:13:43.144+00:00", "evento": "http", "thread": "Thread-7 (process_request_thread)", "mensagem": "\"POST /consultar HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:13:43.145+00:00", "evento": "producao", "thread": "Thread-8 (process_request_thread)", "tamanho_fila": 1, "caracteres_consulta": 57}
+{"horario_utc": "2026-10-17T00:13:43.145+00:00", "evento": "consumo", "thread": "consumidor-1", "espera_fila_s": 7.3e-05, "tamanho_fila": 0}
+{"horario_utc": "2026-10-17T00:13:43.145+00:00", "evento": "cache_miss", "thread": "consumidor-1", "chave": "ae47133b7a29"}
+{"horario_utc": "2026-10-17T00:13:43.145+00:00", "evento": "recuperacao", "thread": "consumidor-1", "trechos": 3, "contexto_bytes": 829, "recuperacao_s": 0.000472}
+{"horario_utc": "2026-10-17T00:13:43.146+00:00", "evento": "geracao_simulada", "thread": "consumidor-1", "duracao_s": 0.001009, "caracteres_resposta": 292}
+{"horario_utc": "2026-10-17T00:13:43.146+00:00", "evento": "consulta_concluida", "thread": "consumidor-1", "cache": "miss", "duracao_s": 0.001746}
+{"horario_utc": "2026-10-17T00:13:43.146+00:00", "evento": "http", "thread": "Thread-8 (process_request_thread)", "mensagem": "\"POST /consultar HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:13:43.147+00:00", "evento": "producao", "thread": "Thread-9 (process_request_thread)", "tamanho_fila": 1, "caracteres_consulta": 54}
+{"horario_utc": "2026-10-17T00:13:43.147+00:00", "evento": "consumo", "thread": "consumidor-2", "espera_fila_s": 7.3e-05, "tamanho_fila": 0}
+{"horario_utc": "2026-10-17T00:13:43.147+00:00", "evento": "cache_miss", "thread": "consumidor-2", "chave": "84cf914ee13f"}
+{"horario_utc": "2026-10-17T00:13:43.147+00:00", "evento": "recuperacao", "thread": "consumidor-2", "trechos": 3, "contexto_bytes": 826, "recuperacao_s": 0.000464}
+{"horario_utc": "2026-10-17T00:13:43.149+00:00", "evento": "geracao_simulada", "thread": "consumidor-2", "duracao_s": 0.001012, "caracteres_resposta": 292}
+{"horario_utc": "2026-10-17T00:13:43.149+00:00", "evento": "consulta_concluida", "thread": "consumidor-2", "cache": "miss", "duracao_s": 0.001736}
+{"horario_utc": "2026-10-17T00:13:43.149+00:00", "evento": "http", "thread": "Thread-9 (process_request_thread)", "mensagem": "\"POST /consultar HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:13:43.149+00:00", "evento": "producao", "thread": "Thread-10 (process_request_thread)", "tamanho_fila": 1, "caracteres_consulta": 61}
+{"horario_utc": "2026-10-17T00:13:43.149+00:00", "evento": "consumo", "thread": "consumidor-1", "espera_fila_s": 6.8e-05, "tamanho_fila": 0}
+{"horario_utc": "2026-10-17T00:13:43.149+00:00", "evento": "cache_miss", "thread": "consumidor-1", "chave": "54ed4aa24120"}
+{"horario_utc": "2026-10-17T00:13:43.150+00:00", "evento": "recuperacao", "thread": "consumidor-1", "trechos": 1, "contexto_bytes": 388, "recuperacao_s": 0.000452}
+{"horario_utc": "2026-10-17T00:13:43.151+00:00", "evento": "geracao_simulada", "thread": "consumidor-1", "duracao_s": 0.001007, "caracteres_resposta": 292}
+{"horario_utc": "2026-10-17T00:13:43.151+00:00", "evento": "consulta_concluida", "thread": "consumidor-1", "cache": "miss", "duracao_s": 0.001705}
+{"horario_utc": "2026-10-17T00:13:43.151+00:00", "evento": "http", "thread": "Thread-10 (process_request_thread)", "mensagem": "\"POST /consultar HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:13:43.151+00:00", "evento": "producao", "thread": "Thread-11 (process_request_thread)", "tamanho_fila": 1, "caracteres_consulta": 54}
+{"horario_utc": "2026-10-17T00:13:43.152+00:00", "evento": "consumo", "thread": "consumidor-2", "espera_fila_s": 5.8e-05, "tamanho_fila": 0}
+{"horario_utc": "2026-10-17T00:13:43.152+00:00", "evento": "cache_miss", "thread": "consumidor-2", "chave": "230dbc2d5e6f"}
+{"horario_utc": "2026-10-17T00:13:43.152+00:00", "evento": "recuperacao", "thread": "consumidor-2", "trechos": 3, "contexto_bytes": 831, "recuperacao_s": 0.000522}
+{"horario_utc": "2026-10-17T00:13:43.153+00:00", "evento": "geracao_simulada", "thread": "consumidor-2", "duracao_s": 0.001009, "caracteres_resposta": 292}
+{"horario_utc": "2026-10-17T00:13:43.153+00:00", "evento": "consulta_concluida", "thread": "consumidor-2", "cache": "miss", "duracao_s": 0.001787}
+{"horario_utc": "2026-10-17T00:13:43.153+00:00", "evento": "http", "thread": "Thread-11 (process_request_thread)", "mensagem": "\"POST /consultar HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:13:43.154+00:00", "evento": "producao", "thread": "Thread-12 (process_request_thread)", "tamanho_fila": 1, "caracteres_consulta": 46}
+{"horario_utc": "2026-10-17T00:13:43.154+00:00", "evento": "consumo", "thread": "consumidor-1", "espera_fila_s": 8.1e-05, "tamanho_fila": 0}
+{"horario_utc": "2026-10-17T00:13:43.154+00:00", "evento": "cache_miss", "thread": "consumidor-1", "chave": "54e4449eeac5"}
+{"horario_utc": "2026-10-17T00:13:43.155+00:00", "evento": "recuperacao", "thread": "consumidor-1", "trechos": 2, "contexto_bytes": 812, "recuperacao_s": 0.000618}
+{"horario_utc": "2026-10-17T00:13:43.156+00:00", "evento": "geracao_simulada", "thread": "consumidor-1", "duracao_s": 0.001018, "caracteres_resposta": 292}
+{"horario_utc": "2026-10-17T00:13:43.156+00:00", "evento": "consulta_concluida", "thread": "consumidor-1", "cache": "miss", "duracao_s": 0.001938}
+{"horario_utc": "2026-10-17T00:13:43.156+00:00", "evento": "http", "thread": "Thread-12 (process_request_thread)", "mensagem": "\"POST /consultar HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:13:43.156+00:00", "evento": "producao", "thread": "Thread-13 (process_request_thread)", "tamanho_fila": 1, "caracteres_consulta": 53}
+{"horario_utc": "2026-10-17T00:13:43.156+00:00", "evento": "consumo", "thread": "consumidor-2", "espera_fila_s": 8.1e-05, "tamanho_fila": 0}
+{"horario_utc": "2026-10-17T00:13:43.157+00:00", "evento": "cache_miss", "thread": "consumidor-2", "chave": "328ed471a139"}
+{"horario_utc": "2026-10-17T00:13:43.157+00:00", "evento": "recuperacao", "thread": "consumidor-2", "trechos": 3, "contexto_bytes": 831, "recuperacao_s": 0.000561}
+{"horario_utc": "2026-10-17T00:13:43.158+00:00", "evento": "geracao_simulada", "thread": "consumidor-2", "duracao_s": 0.00105, "caracteres_resposta": 292}
+{"horario_utc": "2026-10-17T00:13:43.158+00:00", "evento": "consulta_concluida", "thread": "consumidor-2", "cache": "miss", "duracao_s": 0.001917}
+{"horario_utc": "2026-10-17T00:13:43.158+00:00", "evento": "http", "thread": "Thread-13 (process_request_thread)", "mensagem": "\"POST /consultar HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:13:43.159+00:00", "evento": "http", "thread": "Thread-14 (process_request_thread)", "mensagem": "\"GET /status HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:13:43.161+00:00", "evento": "encerramento", "thread": "MainThread", "status": {"fila_e_processamento": {"produtores_requisicoes": 12, "consumidores_processamentos": 12, "requisições_concluídas": 12, "falhas": 0, "fila_amostras": 12, "fila_soma": 12, "fila_maxima": 1, "espera_fila_total_s": 0.0009270899827242829, "tempo_total_requisicoes_s": 0.023385, "espera_media_fila_s": 7.7e-05, "tamanho_medio_fila_amostrado": 1.0, "tamanho_atual_fila": 0, "trabalhadores": 2}, "cache": {"capacidade": 0, "tamanho": 0, "acertos": 0, "erros": 12, "substituicoes": 0, "taxa_acerto": 0.0, "tempo_economizado_estimado_s": 0.0}, "armazenamento": {"documentos": 4, "corpus_bytes": 1691, "trechos": 6, "indice_bytes": 32768}}}

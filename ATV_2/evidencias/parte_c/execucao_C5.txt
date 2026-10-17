@@ -1,0 +1,10 @@
+Resultados em: /home/rafael/Documents/SO/SO_Code/AV2_Parte_B_GenResearch_complemento/resultados/parte_c/execucao_20261016_213229_94331
+[C5] corpus=256 KiB, rep 1: índice 716800 B, RSS amostrado 30240 KiB
+[C5] corpus=256 KiB, rep 2: índice 716800 B, RSS amostrado 29784 KiB
+[C5] corpus=256 KiB, rep 3: índice 716800 B, RSS amostrado 29788 KiB
+[C5] corpus=1024 KiB, rep 1: índice 2797568 B, RSS amostrado 38836 KiB
+[C5] corpus=1024 KiB, rep 2: índice 2797568 B, RSS amostrado 37944 KiB
+[C5] corpus=1024 KiB, rep 3: índice 2797568 B, RSS amostrado 38996 KiB
+
+CONCLUÍDO. Os arquivos brutos estão em: /home/rafael/Documents/SO/SO_Code/AV2_Parte_B_GenResearch_complemento/resultados/parte_c/execucao_20261016_213229_94331
+Não use resultados de --rapido como dados experimentais oficiais.

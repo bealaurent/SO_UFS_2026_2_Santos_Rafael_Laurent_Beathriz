@@ -1,0 +1,7 @@
+test_armazenamento_fila_recuperacao_e_cache (test_parte_b.ParteBTest.test_armazenamento_fila_recuperacao_e_cache) ... ok
+test_fragmentos_e_vetores_deterministicos (test_parte_b.ParteBTest.test_fragmentos_e_vetores_deterministicos) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.025s
+
+OK

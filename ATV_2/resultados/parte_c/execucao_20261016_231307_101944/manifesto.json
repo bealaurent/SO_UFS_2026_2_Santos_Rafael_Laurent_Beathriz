@@ -1,0 +1,27 @@
+{
+  "horario_utc": "2026-10-17T02:13:07+00:00",
+  "comando": [
+    "scripts/experimentos_c.py",
+    "--rapido",
+    "--repeticoes",
+    "1"
+  ],
+  "versao_python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "sistema": "Linux",
+  "kernel": "7.0.0-31-generic",
+  "cwd_raiz": "/home/rafael/Documents/SO/SO_Code/SO_UFS_2026_2_Santos_Rafael_Laurent_Beathriz/ATV_2",
+  "repeticoes": 1,
+  "modo_rapido": true,
+  "testes": [
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6"
+  ],
+  "sha256_script": "f9292fadf0ce91be00281e14f9a0fb0f5fa6170a30a5d8623eeda9e2ae763423",
+  "sha256_servidor_b": "8ec50d7825bd52fc9c666b5010903df222ce0e099804f9565eee2d2caa65e9fe",
+  "commit_git": "40f6f4466b1b5694eacb0496492c7d8ba40b7e52",
+  "finalizado_utc": "2026-10-17T02:13:09+00:00"
+}

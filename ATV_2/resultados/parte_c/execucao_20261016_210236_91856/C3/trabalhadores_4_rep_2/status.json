@@ -1,0 +1,32 @@
+{
+  "fila_e_processamento": {
+    "produtores_requisicoes": 32,
+    "consumidores_processamentos": 32,
+    "requisições_concluídas": 32,
+    "falhas": 0,
+    "fila_amostras": 32,
+    "fila_soma": 40,
+    "fila_maxima": 3,
+    "espera_fila_total_s": 0.004558543980238028,
+    "tempo_total_requisicoes_s": 0.09750500000000001,
+    "espera_media_fila_s": 0.000142,
+    "tamanho_medio_fila_amostrado": 1.25,
+    "tamanho_atual_fila": 0,
+    "trabalhadores": 4
+  },
+  "cache": {
+    "capacidade": 0,
+    "tamanho": 0,
+    "acertos": 0,
+    "erros": 32,
+    "substituicoes": 0,
+    "taxa_acerto": 0.0,
+    "tempo_economizado_estimado_s": 0.0
+  },
+  "armazenamento": {
+    "documentos": 4,
+    "corpus_bytes": 1691,
+    "trechos": 6,
+    "indice_bytes": 32768
+  }
+}
