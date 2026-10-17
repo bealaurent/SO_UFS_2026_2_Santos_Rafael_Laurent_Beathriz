@@ -1,0 +1,34 @@
+[
+  {
+    "thread": "consumidor-1",
+    "tid": 97642,
+    "cache": "hit",
+    "resposta": "Resposta simulada: f1e816a6ca53d6882470c508a2cb205b",
+    "latencia_s": 0.03292246,
+    "espera_mutex_s": 0.03196565
+  },
+  {
+    "thread": "consumidor-2",
+    "tid": 97643,
+    "cache": "miss",
+    "resposta": "Resposta simulada: f1e816a6ca53d6882470c508a2cb205b",
+    "latencia_s": 0.0326266,
+    "espera_mutex_s": 1.01e-06
+  },
+  {
+    "thread": "consumidor-3",
+    "tid": 97644,
+    "cache": "hit",
+    "resposta": "Resposta simulada: f1e816a6ca53d6882470c508a2cb205b",
+    "latencia_s": 0.03280024,
+    "espera_mutex_s": 0.03173788
+  },
+  {
+    "thread": "consumidor-4",
+    "tid": 97645,
+    "cache": "hit",
+    "resposta": "Resposta simulada: f1e816a6ca53d6882470c508a2cb205b",
+    "latencia_s": 0.03311247,
+    "espera_mutex_s": 0.03222416
+  }
+]

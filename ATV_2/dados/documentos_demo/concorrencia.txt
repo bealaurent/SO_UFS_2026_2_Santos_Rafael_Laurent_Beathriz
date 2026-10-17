@@ -1,0 +1,1 @@
+Produtores criam requisições e consumidores as retiram de uma fila compartilhada. Uma fila bloqueante com capacidade limitada pode impor espera aos produtores quando está cheia. Threads que atualizam o mesmo cache devem usar exclusão mútua para impedir inconsistências. Locks, semáforos e filas bloqueantes são recursos de sincronização utilizados em aplicações concorrentes.

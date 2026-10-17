@@ -1,0 +1,22 @@
+{"horario_utc": "2026-10-17T01:02:37.063+00:00", "evento": "inicializacao", "thread": "MainThread", "tid": 97614, "modo": "D1", "repeticao": 3, "trabalhadores": 4, "atraso_simulado_ms": 30, "chave_consulta_sha256": "b14165dac2cab0158e83102ad2f9090c1f90d9301c370019be5a51eeb3ba46f1"}
+{"horario_utc": "2026-10-17T01:02:37.145+00:00", "evento": "consulta_inicio", "thread": "consumidor-2", "tid": 97638, "modo": "D1"}
+{"horario_utc": "2026-10-17T01:02:37.145+00:00", "evento": "consulta_inicio", "thread": "consumidor-1", "tid": 97637, "modo": "D1"}
+{"horario_utc": "2026-10-17T01:02:37.145+00:00", "evento": "consulta_inicio", "thread": "consumidor-4", "tid": 97640, "modo": "D1"}
+{"horario_utc": "2026-10-17T01:02:37.145+00:00", "evento": "cache_miss", "thread": "consumidor-2", "tid": 97638}
+{"horario_utc": "2026-10-17T01:02:37.146+00:00", "evento": "consulta_inicio", "thread": "consumidor-3", "tid": 97639, "modo": "D1"}
+{"horario_utc": "2026-10-17T01:02:37.146+00:00", "evento": "cache_miss", "thread": "consumidor-1", "tid": 97637}
+{"horario_utc": "2026-10-17T01:02:37.146+00:00", "evento": "cache_miss", "thread": "consumidor-4", "tid": 97640}
+{"horario_utc": "2026-10-17T01:02:37.146+00:00", "evento": "cache_miss", "thread": "consumidor-3", "tid": 97639}
+{"horario_utc": "2026-10-17T01:02:37.146+00:00", "evento": "geracao_iniciada", "thread": "consumidor-3", "tid": 97639, "consulta_sha256": "b14165dac2cab0158e83102ad2f9090c1f90d9301c370019be5a51eeb3ba46f1"}
+{"horario_utc": "2026-10-17T01:02:37.146+00:00", "evento": "geracao_iniciada", "thread": "consumidor-1", "tid": 97637, "consulta_sha256": "b14165dac2cab0158e83102ad2f9090c1f90d9301c370019be5a51eeb3ba46f1"}
+{"horario_utc": "2026-10-17T01:02:37.146+00:00", "evento": "geracao_iniciada", "thread": "consumidor-2", "tid": 97638, "consulta_sha256": "b14165dac2cab0158e83102ad2f9090c1f90d9301c370019be5a51eeb3ba46f1"}
+{"horario_utc": "2026-10-17T01:02:37.146+00:00", "evento": "geracao_iniciada", "thread": "consumidor-4", "tid": 97640, "consulta_sha256": "b14165dac2cab0158e83102ad2f9090c1f90d9301c370019be5a51eeb3ba46f1"}
+{"horario_utc": "2026-10-17T01:02:37.178+00:00", "evento": "cache_guardado", "thread": "consumidor-1", "tid": 97637, "numero_calculo": 1, "tempo_geracao_s": 0.03125737}
+{"horario_utc": "2026-10-17T01:02:37.178+00:00", "evento": "consulta_concluida", "thread": "consumidor-1", "tid": 97637, "cache": "miss", "latencia_s": 0.03233025}
+{"horario_utc": "2026-10-17T01:02:37.178+00:00", "evento": "cache_guardado", "thread": "consumidor-4", "tid": 97640, "numero_calculo": 2, "tempo_geracao_s": 0.03141231}
+{"horario_utc": "2026-10-17T01:02:37.178+00:00", "evento": "consulta_concluida", "thread": "consumidor-4", "tid": 97640, "cache": "miss", "latencia_s": 0.03241544}
+{"horario_utc": "2026-10-17T01:02:37.178+00:00", "evento": "cache_guardado", "thread": "consumidor-3", "tid": 97639, "numero_calculo": 3, "tempo_geracao_s": 0.03215028}
+{"horario_utc": "2026-10-17T01:02:37.178+00:00", "evento": "consulta_concluida", "thread": "consumidor-3", "tid": 97639, "cache": "miss", "latencia_s": 0.03291909}
+{"horario_utc": "2026-10-17T01:02:37.179+00:00", "evento": "cache_guardado", "thread": "consumidor-2", "tid": 97638, "numero_calculo": 4, "tempo_geracao_s": 0.03224749}
+{"horario_utc": "2026-10-17T01:02:37.179+00:00", "evento": "consulta_concluida", "thread": "consumidor-2", "tid": 97638, "cache": "miss", "latencia_s": 0.03335085}
+{"horario_utc": "2026-10-17T01:02:37.179+00:00", "evento": "encerramento", "thread": "MainThread", "tid": 97614, "configuracao": "D1", "repeticao": 3, "trabalhadores": 4, "atraso_simulado_ms": 30, "consultas": 4, "respostas_concluidas": 4, "respostas_distintas": 1, "geracoes_realizadas": 4, "geracoes_duplicadas": 3, "cache_hits": 0, "cache_misses": 4, "cache_entradas": 1, "tempo_lote_s": 0.03344234, "latencia_media_s": 0.03275391, "espera_mutex_media_s": 0.0, "falhas": 0, "sucesso": true}

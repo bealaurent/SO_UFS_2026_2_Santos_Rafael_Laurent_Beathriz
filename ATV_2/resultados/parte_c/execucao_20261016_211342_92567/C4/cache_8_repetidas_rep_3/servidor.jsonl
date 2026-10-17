@@ -1,0 +1,66 @@
+{"horario_utc": "2026-10-17T00:13:43.580+00:00", "evento": "inicializacao", "thread": "MainThread", "trabalhadores": 2, "capacidade_fila": 8, "capacidade_cache": 8, "banco": "/home/rafael/Documents/SO/SO_Code/AV2_Parte_B_GenResearch_complemento/resultados/parte_c/execucao_20261016_211342_92567/C4/cache_8_repetidas_rep_3/indice.sqlite3"}
+{"horario_utc": "2026-10-17T00:13:43.598+00:00", "evento": "http", "thread": "Thread-1 (process_request_thread)", "mensagem": "\"GET /saude HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:13:43.599+00:00", "evento": "producao", "thread": "Thread-2 (process_request_thread)", "tamanho_fila": 1, "caracteres_consulta": 36}
+{"horario_utc": "2026-10-17T00:13:43.599+00:00", "evento": "consumo", "thread": "consumidor-1", "espera_fila_s": 6.4e-05, "tamanho_fila": 0}
+{"horario_utc": "2026-10-17T00:13:43.599+00:00", "evento": "cache_miss", "thread": "consumidor-1", "chave": "05ff9d19c9bf"}
+{"horario_utc": "2026-10-17T00:13:43.600+00:00", "evento": "recuperacao", "thread": "consumidor-1", "trechos": 3, "contexto_bytes": 829, "recuperacao_s": 0.000791}
+{"horario_utc": "2026-10-17T00:13:43.601+00:00", "evento": "geracao_simulada", "thread": "consumidor-1", "duracao_s": 0.001078, "caracteres_resposta": 292}
+{"horario_utc": "2026-10-17T00:13:43.601+00:00", "evento": "consulta_concluida", "thread": "consumidor-1", "cache": "miss", "duracao_s": 0.002234}
+{"horario_utc": "2026-10-17T00:13:43.602+00:00", "evento": "http", "thread": "Thread-2 (process_request_thread)", "mensagem": "\"POST /consultar HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:13:43.603+00:00", "evento": "producao", "thread": "Thread-3 (process_request_thread)", "tamanho_fila": 1, "caracteres_consulta": 36}
+{"horario_utc": "2026-10-17T00:13:43.603+00:00", "evento": "consumo", "thread": "consumidor-2", "espera_fila_s": 7.3e-05, "tamanho_fila": 0}
+{"horario_utc": "2026-10-17T00:13:43.603+00:00", "evento": "cache_hit", "thread": "consumidor-2", "chave": "05ff9d19c9bf"}
+{"horario_utc": "2026-10-17T00:13:43.603+00:00", "evento": "consulta_concluida", "thread": "consumidor-2", "cache": "hit", "duracao_s": 0.000202}
+{"horario_utc": "2026-10-17T00:13:43.603+00:00", "evento": "http", "thread": "Thread-3 (process_request_thread)", "mensagem": "\"POST /consultar HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:13:43.604+00:00", "evento": "producao", "thread": "Thread-4 (process_request_thread)", "tamanho_fila": 1, "caracteres_consulta": 36}
+{"horario_utc": "2026-10-17T00:13:43.604+00:00", "evento": "consumo", "thread": "consumidor-1", "espera_fila_s": 7.5e-05, "tamanho_fila": 0}
+{"horario_utc": "2026-10-17T00:13:43.604+00:00", "evento": "cache_hit", "thread": "consumidor-1", "chave": "05ff9d19c9bf"}
+{"horario_utc": "2026-10-17T00:13:43.604+00:00", "evento": "consulta_concluida", "thread": "consumidor-1", "cache": "hit", "duracao_s": 0.000215}
+{"horario_utc": "2026-10-17T00:13:43.604+00:00", "evento": "http", "thread": "Thread-4 (process_request_thread)", "mensagem": "\"POST /consultar HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:13:43.604+00:00", "evento": "producao", "thread": "Thread-5 (process_request_thread)", "tamanho_fila": 1, "caracteres_consulta": 36}
+{"horario_utc": "2026-10-17T00:13:43.605+00:00", "evento": "consumo", "thread": "consumidor-2", "espera_fila_s": 5.8e-05, "tamanho_fila": 0}
+{"horario_utc": "2026-10-17T00:13:43.605+00:00", "evento": "cache_hit", "thread": "consumidor-2", "chave": "05ff9d19c9bf"}
+{"horario_utc": "2026-10-17T00:13:43.605+00:00", "evento": "consulta_concluida", "thread": "consumidor-2", "cache": "hit", "duracao_s": 0.000169}
+{"horario_utc": "2026-10-17T00:13:43.605+00:00", "evento": "http", "thread": "Thread-5 (process_request_thread)", "mensagem": "\"POST /consultar HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:13:43.605+00:00", "evento": "producao", "thread": "Thread-6 (process_request_thread)", "tamanho_fila": 1, "caracteres_consulta": 36}
+{"horario_utc": "2026-10-17T00:13:43.605+00:00", "evento": "consumo", "thread": "consumidor-1", "espera_fila_s": 7.6e-05, "tamanho_fila": 0}
+{"horario_utc": "2026-10-17T00:13:43.605+00:00", "evento": "cache_hit", "thread": "consumidor-1", "chave": "05ff9d19c9bf"}
+{"horario_utc": "2026-10-17T00:13:43.605+00:00", "evento": "consulta_concluida", "thread": "consumidor-1", "cache": "hit", "duracao_s": 0.000216}
+{"horario_utc": "2026-10-17T00:13:43.606+00:00", "evento": "http", "thread": "Thread-6 (process_request_thread)", "mensagem": "\"POST /consultar HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:13:43.606+00:00", "evento": "producao", "thread": "Thread-7 (process_request_thread)", "tamanho_fila": 1, "caracteres_consulta": 36}
+{"horario_utc": "2026-10-17T00:13:43.606+00:00", "evento": "consumo", "thread": "consumidor-2", "espera_fila_s": 6.2e-05, "tamanho_fila": 0}
+{"horario_utc": "2026-10-17T00:13:43.606+00:00", "evento": "cache_hit", "thread": "consumidor-2", "chave": "05ff9d19c9bf"}
+{"horario_utc": "2026-10-17T00:13:43.606+00:00", "evento": "consulta_concluida", "thread": "consumidor-2", "cache": "hit", "duracao_s": 0.000152}
+{"horario_utc": "2026-10-17T00:13:43.606+00:00", "evento": "http", "thread": "Thread-7 (process_request_thread)", "mensagem": "\"POST /consultar HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:13:43.607+00:00", "evento": "producao", "thread": "Thread-8 (process_request_thread)", "tamanho_fila": 1, "caracteres_consulta": 36}
+{"horario_utc": "2026-10-17T00:13:43.607+00:00", "evento": "consumo", "thread": "consumidor-1", "espera_fila_s": 6.4e-05, "tamanho_fila": 0}
+{"horario_utc": "2026-10-17T00:13:43.607+00:00", "evento": "cache_hit", "thread": "consumidor-1", "chave": "05ff9d19c9bf"}
+{"horario_utc": "2026-10-17T00:13:43.607+00:00", "evento": "consulta_concluida", "thread": "consumidor-1", "cache": "hit", "duracao_s": 0.000161}
+{"horario_utc": "2026-10-17T00:13:43.607+00:00", "evento": "http", "thread": "Thread-8 (process_request_thread)", "mensagem": "\"POST /consultar HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:13:43.607+00:00", "evento": "producao", "thread": "Thread-9 (process_request_thread)", "tamanho_fila": 1, "caracteres_consulta": 36}
+{"horario_utc": "2026-10-17T00:13:43.607+00:00", "evento": "consumo", "thread": "consumidor-2", "espera_fila_s": 6.5e-05, "tamanho_fila": 0}
+{"horario_utc": "2026-10-17T00:13:43.607+00:00", "evento": "cache_hit", "thread": "consumidor-2", "chave": "05ff9d19c9bf"}
+{"horario_utc": "2026-10-17T00:13:43.607+00:00", "evento": "consulta_concluida", "thread": "consumidor-2", "cache": "hit", "duracao_s": 0.000149}
+{"horario_utc": "2026-10-17T00:13:43.608+00:00", "evento": "http", "thread": "Thread-9 (process_request_thread)", "mensagem": "\"POST /consultar HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:13:43.608+00:00", "evento": "producao", "thread": "Thread-10 (process_request_thread)", "tamanho_fila": 1, "caracteres_consulta": 36}
+{"horario_utc": "2026-10-17T00:13:43.608+00:00", "evento": "consumo", "thread": "consumidor-1", "espera_fila_s": 7.4e-05, "tamanho_fila": 0}
+{"horario_utc": "2026-10-17T00:13:43.608+00:00", "evento": "cache_hit", "thread": "consumidor-1", "chave": "05ff9d19c9bf"}
+{"horario_utc": "2026-10-17T00:13:43.608+00:00", "evento": "consulta_concluida", "thread": "consumidor-1", "cache": "hit", "duracao_s": 0.000176}
+{"horario_utc": "2026-10-17T00:13:43.608+00:00", "evento": "http", "thread": "Thread-10 (process_request_thread)", "mensagem": "\"POST /consultar HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:13:43.609+00:00", "evento": "producao", "thread": "Thread-11 (process_request_thread)", "tamanho_fila": 1, "caracteres_consulta": 36}
+{"horario_utc": "2026-10-17T00:13:43.609+00:00", "evento": "consumo", "thread": "consumidor-2", "espera_fila_s": 7e-05, "tamanho_fila": 0}
+{"horario_utc": "2026-10-17T00:13:43.609+00:00", "evento": "cache_hit", "thread": "consumidor-2", "chave": "05ff9d19c9bf"}
+{"horario_utc": "2026-10-17T00:13:43.609+00:00", "evento": "consulta_concluida", "thread": "consumidor-2", "cache": "hit", "duracao_s": 0.000164}
+{"horario_utc": "2026-10-17T00:13:43.609+00:00", "evento": "http", "thread": "Thread-11 (process_request_thread)", "mensagem": "\"POST /consultar HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:13:43.609+00:00", "evento": "producao", "thread": "Thread-12 (process_request_thread)", "tamanho_fila": 1, "caracteres_consulta": 36}
+{"horario_utc": "2026-10-17T00:13:43.610+00:00", "evento": "consumo", "thread": "consumidor-1", "espera_fila_s": 6.3e-05, "tamanho_fila": 0}
+{"horario_utc": "2026-10-17T00:13:43.610+00:00", "evento": "cache_hit", "thread": "consumidor-1", "chave": "05ff9d19c9bf"}
+{"horario_utc": "2026-10-17T00:13:43.610+00:00", "evento": "consulta_concluida", "thread": "consumidor-1", "cache": "hit", "duracao_s": 0.000148}
+{"horario_utc": "2026-10-17T00:13:43.610+00:00", "evento": "http", "thread": "Thread-12 (process_request_thread)", "mensagem": "\"POST /consultar HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:13:43.610+00:00", "evento": "producao", "thread": "Thread-13 (process_request_thread)", "tamanho_fila": 1, "caracteres_consulta": 36}
+{"horario_utc": "2026-10-17T00:13:43.610+00:00", "evento": "consumo", "thread": "consumidor-2", "espera_fila_s": 6.5e-05, "tamanho_fila": 0}
+{"horario_utc": "2026-10-17T00:13:43.610+00:00", "evento": "cache_hit", "thread": "consumidor-2", "chave": "05ff9d19c9bf"}
+{"horario_utc": "2026-10-17T00:13:43.610+00:00", "evento": "consulta_concluida", "thread": "consumidor-2", "cache": "hit", "duracao_s": 0.000152}
+{"horario_utc": "2026-10-17T00:13:43.610+00:00", "evento": "http", "thread": "Thread-13 (process_request_thread)", "mensagem": "\"POST /consultar HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:13:43.612+00:00", "evento": "http", "thread": "Thread-14 (process_request_thread)", "mensagem": "\"GET /status HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:13:43.613+00:00", "evento": "encerramento", "thread": "MainThread", "status": {"fila_e_processamento": {"produtores_requisicoes": 12, "consumidores_processamentos": 12, "requisições_concluídas": 12, "falhas": 0, "fila_amostras": 12, "fila_soma": 12, "fila_maxima": 1, "espera_fila_total_s": 0.0008096960082184523, "tempo_total_requisicoes_s": 0.004138, "espera_media_fila_s": 6.7e-05, "tamanho_medio_fila_amostrado": 1.0, "tamanho_atual_fila": 0, "trabalhadores": 2}, "cache": {"capacidade": 8, "tamanho": 1, "acertos": 11, "erros": 1, "substituicoes": 0, "taxa_acerto": 0.9166666666666666, "tempo_economizado_estimado_s": 0.02057}, "armazenamento": {"documentos": 4, "corpus_bytes": 1691, "trechos": 6, "indice_bytes": 32768}}}

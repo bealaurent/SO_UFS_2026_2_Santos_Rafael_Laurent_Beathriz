@@ -1,0 +1,266 @@
+{
+  "consultas": [
+    {
+      "consulta": "O que é memória virtual e paginação?",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O sistema operacional gerencia a memória principal para compartilhar a RAM entre os processos. A memória virtual permite que cada processo use endereços próprios. A paginação organiza a memória em páginas e quadros. Uma falta de página ocor",
+      "trechos": [
+        {
+          "documento": "memoria.txt",
+          "posicao": 0,
+          "similaridade": 0.6637,
+          "caracteres": 399
+        },
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.4449,
+          "caracteres": 397
+        }
+      ],
+      "contexto_bytes": 827,
+      "contexto_tokens_aproximados": 121,
+      "recuperacao_s": 0.000756,
+      "resposta_s": 0.001099,
+      "processamento_original_s": 0.001855,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 9e-05,
+      "tempo_total_s": 0.002287,
+      "consumidor": "consumidor-1"
+    },
+    {
+      "consulta": "O que é memória virtual e paginação?",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O sistema operacional gerencia a memória principal para compartilhar a RAM entre os processos. A memória virtual permite que cada processo use endereços próprios. A paginação organiza a memória em páginas e quadros. Uma falta de página ocor",
+      "trechos": [
+        {
+          "documento": "memoria.txt",
+          "posicao": 0,
+          "similaridade": 0.6637,
+          "caracteres": 399
+        },
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.4449,
+          "caracteres": 397
+        }
+      ],
+      "contexto_bytes": 827,
+      "contexto_tokens_aproximados": 121,
+      "recuperacao_s": 0.0,
+      "resposta_s": 0.0,
+      "processamento_original_s": 0.001855,
+      "cache": "hit",
+      "economia_estimada_s": 0.001855,
+      "espera_fila_s": 7.7e-05,
+      "tempo_total_s": 0.000192,
+      "consumidor": "consumidor-2"
+    },
+    {
+      "consulta": "Como funciona um cache de páginas?",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O cache de páginas do Linux mantém em RAM dados de arquivos recentemente acessados para acelerar leituras futuras. MemFree representa memória livre, enquanto MemAvailable considera memória que pode ser disponibilizada às aplicações. O cache",
+      "trechos": [
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.3696,
+          "caracteres": 397
+        },
+        {
+          "documento": "memoria.txt",
+          "posicao": 1,
+          "similaridade": 0.1443,
+          "caracteres": 41
+        }
+      ],
+      "contexto_bytes": 456,
+      "contexto_tokens_aproximados": 64,
+      "recuperacao_s": 0.000696,
+      "resposta_s": 0.001087,
+      "processamento_original_s": 0.001783,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 0.000108,
+      "tempo_total_s": 0.002149,
+      "consumidor": "consumidor-1"
+    },
+    {
+      "consulta": "O que são produtores e consumidores?",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: Produtores criam requisições e consumidores as retiram de uma fila compartilhada. Uma fila bloqueante com capacidade limitada pode impor espera aos produtores quando está cheia. Threads que atualizam o mesmo cache devem usar exclusão mútua ",
+      "trechos": [
+        {
+          "documento": "concorrencia.txt",
+          "posicao": 0,
+          "similaridade": 0.4783,
+          "caracteres": 375
+        },
+        {
+          "documento": "rag.txt",
+          "posicao": 0,
+          "similaridade": 0.4513,
+          "caracteres": 389
+        }
+      ],
+      "contexto_bytes": 789,
+      "contexto_tokens_aproximados": 108,
+      "recuperacao_s": 0.000692,
+      "resposta_s": 0.001086,
+      "processamento_original_s": 0.001779,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 7.2e-05,
+      "tempo_total_s": 0.002083,
+      "consumidor": "consumidor-2"
+    },
+    {
+      "consulta": "Explique RAG e embeddings",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: Produtores criam requisições e consumidores as retiram de uma fila compartilhada. Uma fila bloqueante com capacidade limitada pode impor espera aos produtores quando está cheia. Threads que atualizam o mesmo cache devem usar exclusão mútua ",
+      "trechos": [
+        {
+          "documento": "concorrencia.txt",
+          "posicao": 0,
+          "similaridade": 0.2604,
+          "caracteres": 375
+        },
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.1358,
+          "caracteres": 397
+        },
+        {
+          "documento": "rag.txt",
+          "posicao": 0,
+          "similaridade": 0.1005,
+          "caracteres": 26
+        }
+      ],
+      "contexto_bytes": 827,
+      "contexto_tokens_aproximados": 111,
+      "recuperacao_s": 0.00087,
+      "resposta_s": 0.0011,
+      "processamento_original_s": 0.001969,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 7e-05,
+      "tempo_total_s": 0.002543,
+      "consumidor": "consumidor-1"
+    },
+    {
+      "consulta": "Como a swap afeta a RAM?",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O sistema operacional gerencia a memória principal para compartilhar a RAM entre os processos. A memória virtual permite que cada processo use endereços próprios. A paginação organiza a memória em páginas e quadros. Uma falta de página ocor",
+      "trechos": [
+        {
+          "documento": "memoria.txt",
+          "posicao": 0,
+          "similaridade": 0.473,
+          "caracteres": 399
+        },
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.128,
+          "caracteres": 397
+        }
+      ],
+      "contexto_bytes": 827,
+      "contexto_tokens_aproximados": 121,
+      "recuperacao_s": 0.000494,
+      "resposta_s": 0.00106,
+      "processamento_original_s": 0.001554,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 8.8e-05,
+      "tempo_total_s": 0.002472,
+      "consumidor": "consumidor-2"
+    },
+    {
+      "consulta": "Para que serve mmap?",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O cache de páginas do Linux mantém em RAM dados de arquivos recentemente acessados para acelerar leituras futuras. MemFree representa memória livre, enquanto MemAvailable considera memória que pode ser disponibilizada às aplicações. O cache",
+      "trechos": [
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.4527,
+          "caracteres": 397
+        },
+        {
+          "documento": "concorrencia.txt",
+          "posicao": 0,
+          "similaridade": 0.2604,
+          "caracteres": 375
+        },
+        {
+          "documento": "rag.txt",
+          "posicao": 0,
+          "similaridade": 0.2513,
+          "caracteres": 26
+        }
+      ],
+      "contexto_bytes": 827,
+      "contexto_tokens_aproximados": 111,
+      "recuperacao_s": 0.000693,
+      "resposta_s": 0.001042,
+      "processamento_original_s": 0.001735,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 0.001743,
+      "tempo_total_s": 0.003838,
+      "consumidor": "consumidor-1"
+    },
+    {
+      "consulta": "Como funciona sincronização por mutex?",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: mais lento que o acesso à memória física. ",
+      "trechos": [
+        {
+          "documento": "memoria.txt",
+          "posicao": 1,
+          "similaridade": 0.1336,
+          "caracteres": 41
+        }
+      ],
+      "contexto_bytes": 45,
+      "contexto_tokens_aproximados": 8,
+      "recuperacao_s": 0.000687,
+      "resposta_s": 0.001153,
+      "processamento_original_s": 0.00184,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 0.001761,
+      "tempo_total_s": 0.003769,
+      "consumidor": "consumidor-2"
+    }
+  ],
+  "estado": {
+    "fila_e_processamento": {
+      "produtores_requisicoes": 8,
+      "consumidores_processamentos": 8,
+      "requisições_concluídas": 8,
+      "falhas": 0,
+      "fila_amostras": 8,
+      "fila_soma": 9,
+      "fila_maxima": 2,
+      "espera_fila_total_s": 0.004007736999483313,
+      "tempo_total_requisicoes_s": 0.019333,
+      "espera_media_fila_s": 0.000501,
+      "tamanho_medio_fila_amostrado": 1.125,
+      "tamanho_atual_fila": 0,
+      "trabalhadores": 2
+    },
+    "cache": {
+      "capacidade": 8,
+      "tamanho": 7,
+      "acertos": 1,
+      "erros": 7,
+      "substituicoes": 0,
+      "taxa_acerto": 0.125,
+      "tempo_economizado_estimado_s": 0.001855
+    },
+    "armazenamento": {
+      "documentos": 4,
+      "corpus_bytes": 1691,
+      "trechos": 6,
+      "indice_bytes": 32768
+    }
+  }
+}

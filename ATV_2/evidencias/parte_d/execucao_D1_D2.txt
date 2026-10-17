@@ -1,0 +1,11 @@
+PARTE D — SINCRONIZAÇÃO DO CACHE
+Resultados em: /home/rafael/Documents/SO/SO_Code/AV2_Parte_B_GenResearch_complemento/resultados/parte_d/execucao_20261016_220236_825380_97614
+[D1] repetição 1: geracoes=4, duplicadas=3, hits=0, misses=4, respostas=4, falhas=0
+[D1] repetição 2: geracoes=4, duplicadas=3, hits=0, misses=4, respostas=4, falhas=0
+[D1] repetição 3: geracoes=4, duplicadas=3, hits=0, misses=4, respostas=4, falhas=0
+[D2] repetição 1: geracoes=1, duplicadas=0, hits=3, misses=1, respostas=4, falhas=0
+[D2] repetição 2: geracoes=1, duplicadas=0, hits=3, misses=1, respostas=4, falhas=0
+[D2] repetição 3: geracoes=1, duplicadas=0, hits=3, misses=1, respostas=4, falhas=0
+
+CONCLUÍDO. Arquivos brutos em: /home/rafael/Documents/SO/SO_Code/AV2_Parte_B_GenResearch_complemento/resultados/parte_d/execucao_20261016_220236_825380_97614
+D1 usa barreira pós-miss intencional; a evidência principal é duplicação vs. ausência de duplicação.

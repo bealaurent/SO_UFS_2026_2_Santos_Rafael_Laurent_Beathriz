@@ -1,0 +1,1 @@
+-rw-r--r-- 1 rafael rafael 32K Oct 16 19:49 dados/indice_parte_b.sqlite3

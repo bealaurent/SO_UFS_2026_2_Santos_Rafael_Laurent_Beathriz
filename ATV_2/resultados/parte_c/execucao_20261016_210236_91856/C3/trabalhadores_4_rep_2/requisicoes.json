@@ -1,0 +1,1178 @@
+[
+  {
+    "consulta": "Explique memória virtual paginação, solicitação número 1.",
+    "http": 200,
+    "cliente_s": 0.006353794997266959,
+    "corpo": {
+      "consulta": "Explique memória virtual paginação, solicitação número 1.",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O sistema operacional gerencia a memória principal para compartilhar a RAM entre os processos. A memória virtual permite que cada processo use endereços próprios. A paginação organiza a memória em páginas e quadros. Uma falta de página ocor",
+      "trechos": [
+        {
+          "documento": "memoria.txt",
+          "posicao": 0,
+          "similaridade": 0.2529,
+          "caracteres": 399
+        },
+        {
+          "documento": "memoria.txt",
+          "posicao": 1,
+          "similaridade": 0.1336,
+          "caracteres": 41
+        },
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.1027,
+          "caracteres": 358
+        }
+      ],
+      "contexto_bytes": 829,
+      "contexto_tokens_aproximados": 123,
+      "recuperacao_s": 0.001196,
+      "resposta_s": 0.001541,
+      "processamento_original_s": 0.002737,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 0.000225,
+      "tempo_total_s": 0.004176,
+      "consumidor": "consumidor-1"
+    }
+  },
+  {
+    "consulta": "Explique cache de páginas Linux, solicitação número 2.",
+    "http": 200,
+    "cliente_s": 0.004541670001344755,
+    "corpo": {
+      "consulta": "Explique cache de páginas Linux, solicitação número 2.",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O cache de páginas do Linux mantém em RAM dados de arquivos recentemente acessados para acelerar leituras futuras. MemFree representa memória livre, enquanto MemAvailable considera memória que pode ser disponibilizada às aplicações. O cache",
+      "trechos": [
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.4805,
+          "caracteres": 397
+        },
+        {
+          "documento": "concorrencia.txt",
+          "posicao": 0,
+          "similaridade": 0.2126,
+          "caracteres": 375
+        },
+        {
+          "documento": "rag.txt",
+          "posicao": 0,
+          "similaridade": 0.1641,
+          "caracteres": 26
+        }
+      ],
+      "contexto_bytes": 827,
+      "contexto_tokens_aproximados": 111,
+      "recuperacao_s": 0.000654,
+      "resposta_s": 0.001111,
+      "processamento_original_s": 0.001765,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 0.00016,
+      "tempo_total_s": 0.002953,
+      "consumidor": "consumidor-2"
+    }
+  },
+  {
+    "consulta": "Explique produtores consumidores mutex, solicitação número 3.",
+    "http": 200,
+    "cliente_s": 0.006044296002073679,
+    "corpo": {
+      "consulta": "Explique produtores consumidores mutex, solicitação número 3.",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: Produtores criam requisições e consumidores as retiram de uma fila compartilhada. Uma fila bloqueante com capacidade limitada pode impor espera aos produtores quando está cheia. Threads que atualizam o mesmo cache devem usar exclusão mútua ",
+      "trechos": [
+        {
+          "documento": "concorrencia.txt",
+          "posicao": 0,
+          "similaridade": 0.2952,
+          "caracteres": 375
+        },
+        {
+          "documento": "rag.txt",
+          "posicao": 0,
+          "similaridade": 0.2279,
+          "caracteres": 389
+        },
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.0342,
+          "caracteres": 34
+        }
+      ],
+      "contexto_bytes": 825,
+      "contexto_tokens_aproximados": 115,
+      "recuperacao_s": 0.000872,
+      "resposta_s": 0.00126,
+      "processamento_original_s": 0.002131,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 9.1e-05,
+      "tempo_total_s": 0.003598,
+      "consumidor": "consumidor-3"
+    }
+  },
+  {
+    "consulta": "Explique RAG embeddings índice, solicitação número 4.",
+    "http": 200,
+    "cliente_s": 0.005358780996175483,
+    "corpo": {
+      "consulta": "Explique RAG embeddings índice, solicitação número 4.",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O cache de páginas do Linux mantém em RAM dados de arquivos recentemente acessados para acelerar leituras futuras. MemFree representa memória livre, enquanto MemAvailable considera memória que pode ser disponibilizada às aplicações. O cache",
+      "trechos": [
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.1369,
+          "caracteres": 397
+        },
+        {
+          "documento": "memoria.txt",
+          "posicao": 1,
+          "similaridade": 0.1336,
+          "caracteres": 41
+        }
+      ],
+      "contexto_bytes": 456,
+      "contexto_tokens_aproximados": 64,
+      "recuperacao_s": 0.000962,
+      "resposta_s": 0.001072,
+      "processamento_original_s": 0.002034,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 9.2e-05,
+      "tempo_total_s": 0.002764,
+      "consumidor": "consumidor-4"
+    }
+  },
+  {
+    "consulta": "Explique arquivos mmap, solicitação número 5.",
+    "http": 200,
+    "cliente_s": 0.004426393999892753,
+    "corpo": {
+      "consulta": "Explique arquivos mmap, solicitação número 5.",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O cache de páginas do Linux mantém em RAM dados de arquivos recentemente acessados para acelerar leituras futuras. MemFree representa memória livre, enquanto MemAvailable considera memória que pode ser disponibilizada às aplicações. O cache",
+      "trechos": [
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.16,
+          "caracteres": 397
+        },
+        {
+          "documento": "concorrencia.txt",
+          "posicao": 0,
+          "similaridade": 0.0921,
+          "caracteres": 375
+        },
+        {
+          "documento": "rag.txt",
+          "posicao": 0,
+          "similaridade": 0.0711,
+          "caracteres": 26
+        }
+      ],
+      "contexto_bytes": 827,
+      "contexto_tokens_aproximados": 111,
+      "recuperacao_s": 0.001242,
+      "resposta_s": 0.001182,
+      "processamento_original_s": 0.002425,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 8.3e-05,
+      "tempo_total_s": 0.003438,
+      "consumidor": "consumidor-2"
+    }
+  },
+  {
+    "consulta": "Explique swap memória virtual, solicitação número 6.",
+    "http": 200,
+    "cliente_s": 0.004209838996757753,
+    "corpo": {
+      "consulta": "Explique swap memória virtual, solicitação número 6.",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: mais lento que o acesso à memória física. O sistema operacional gerencia a memória principal para compartilhar a RAM entre os processos. A memória virtual permite que cada processo use endereços próprios. A paginação organiza a memória em p",
+      "trechos": [
+        {
+          "documento": "memoria.txt",
+          "posicao": 1,
+          "similaridade": 0.2673,
+          "caracteres": 41
+        },
+        {
+          "documento": "memoria.txt",
+          "posicao": 0,
+          "similaridade": 0.1896,
+          "caracteres": 399
+        },
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.1711,
+          "caracteres": 358
+        }
+      ],
+      "contexto_bytes": 829,
+      "contexto_tokens_aproximados": 123,
+      "recuperacao_s": 0.000757,
+      "resposta_s": 0.001119,
+      "processamento_original_s": 0.001876,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 0.000445,
+      "tempo_total_s": 0.002935,
+      "consumidor": "consumidor-4"
+    }
+  },
+  {
+    "consulta": "Explique memória virtual paginação, solicitação número 7.",
+    "http": 200,
+    "cliente_s": 0.004458764997252729,
+    "corpo": {
+      "consulta": "Explique memória virtual paginação, solicitação número 7.",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O sistema operacional gerencia a memória principal para compartilhar a RAM entre os processos. A memória virtual permite que cada processo use endereços próprios. A paginação organiza a memória em páginas e quadros. Uma falta de página ocor",
+      "trechos": [
+        {
+          "documento": "memoria.txt",
+          "posicao": 0,
+          "similaridade": 0.2212,
+          "caracteres": 399
+        },
+        {
+          "documento": "memoria.txt",
+          "posicao": 1,
+          "similaridade": 0.1336,
+          "caracteres": 41
+        },
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.1027,
+          "caracteres": 358
+        }
+      ],
+      "contexto_bytes": 829,
+      "contexto_tokens_aproximados": 123,
+      "recuperacao_s": 0.001242,
+      "resposta_s": 0.001146,
+      "processamento_original_s": 0.002388,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 0.00053,
+      "tempo_total_s": 0.003642,
+      "consumidor": "consumidor-1"
+    }
+  },
+  {
+    "consulta": "Explique cache de páginas Linux, solicitação número 8.",
+    "http": 200,
+    "cliente_s": 0.003963818002375774,
+    "corpo": {
+      "consulta": "Explique cache de páginas Linux, solicitação número 8.",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O cache de páginas do Linux mantém em RAM dados de arquivos recentemente acessados para acelerar leituras futuras. MemFree representa memória livre, enquanto MemAvailable considera memória que pode ser disponibilizada às aplicações. O cache",
+      "trechos": [
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.6082,
+          "caracteres": 397
+        },
+        {
+          "documento": "concorrencia.txt",
+          "posicao": 0,
+          "similaridade": 0.3222,
+          "caracteres": 375
+        },
+        {
+          "documento": "memoria.txt",
+          "posicao": 1,
+          "similaridade": 0.25,
+          "caracteres": 26
+        }
+      ],
+      "contexto_bytes": 826,
+      "contexto_tokens_aproximados": 113,
+      "recuperacao_s": 0.000865,
+      "resposta_s": 0.001035,
+      "processamento_original_s": 0.0019,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 0.000309,
+      "tempo_total_s": 0.002793,
+      "consumidor": "consumidor-3"
+    }
+  },
+  {
+    "consulta": "Explique produtores consumidores mutex, solicitação número 9.",
+    "http": 200,
+    "cliente_s": 0.003871064000122715,
+    "corpo": {
+      "consulta": "Explique produtores consumidores mutex, solicitação número 9.",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: Produtores criam requisições e consumidores as retiram de uma fila compartilhada. Uma fila bloqueante com capacidade limitada pode impor espera aos produtores quando está cheia. Threads que atualizam o mesmo cache devem usar exclusão mútua ",
+      "trechos": [
+        {
+          "documento": "concorrencia.txt",
+          "posicao": 0,
+          "similaridade": 0.1968,
+          "caracteres": 375
+        }
+      ],
+      "contexto_bytes": 388,
+      "contexto_tokens_aproximados": 51,
+      "recuperacao_s": 0.001209,
+      "resposta_s": 0.001105,
+      "processamento_original_s": 0.002314,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 5.8e-05,
+      "tempo_total_s": 0.002838,
+      "consumidor": "consumidor-2"
+    }
+  },
+  {
+    "consulta": "Explique RAG embeddings índice, solicitação número 10.",
+    "http": 200,
+    "cliente_s": 0.004536410997388884,
+    "corpo": {
+      "consulta": "Explique RAG embeddings índice, solicitação número 10.",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: mais lento que o acesso à memória física. O cache de páginas do Linux mantém em RAM dados de arquivos recentemente acessados para acelerar leituras futuras. MemFree representa memória livre, enquanto MemAvailable considera memória que pode ",
+      "trechos": [
+        {
+          "documento": "memoria.txt",
+          "posicao": 1,
+          "similaridade": 0.2357,
+          "caracteres": 41
+        },
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.1811,
+          "caracteres": 397
+        },
+        {
+          "documento": "memoria.txt",
+          "posicao": 0,
+          "similaridade": 0.1394,
+          "caracteres": 360
+        }
+      ],
+      "contexto_bytes": 831,
+      "contexto_tokens_aproximados": 122,
+      "recuperacao_s": 0.000843,
+      "resposta_s": 0.001244,
+      "processamento_original_s": 0.002087,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 0.000272,
+      "tempo_total_s": 0.003253,
+      "consumidor": "consumidor-3"
+    }
+  },
+  {
+    "consulta": "Explique arquivos mmap, solicitação número 11.",
+    "http": 200,
+    "cliente_s": 0.004698984994320199,
+    "corpo": {
+      "consulta": "Explique arquivos mmap, solicitação número 11.",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O cache de páginas do Linux mantém em RAM dados de arquivos recentemente acessados para acelerar leituras futuras. MemFree representa memória livre, enquanto MemAvailable considera memória que pode ser disponibilizada às aplicações. O cache",
+      "trechos": [
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.1478,
+          "caracteres": 397
+        },
+        {
+          "documento": "rag.txt",
+          "posicao": 0,
+          "similaridade": 0.0821,
+          "caracteres": 389
+        }
+      ],
+      "contexto_bytes": 812,
+      "contexto_tokens_aproximados": 113,
+      "recuperacao_s": 0.0013,
+      "resposta_s": 0.001175,
+      "processamento_original_s": 0.002475,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 0.000125,
+      "tempo_total_s": 0.003403,
+      "consumidor": "consumidor-4"
+    }
+  },
+  {
+    "consulta": "Explique swap memória virtual, solicitação número 12.",
+    "http": 200,
+    "cliente_s": 0.004563602000416722,
+    "corpo": {
+      "consulta": "Explique swap memória virtual, solicitação número 12.",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O cache de páginas do Linux mantém em RAM dados de arquivos recentemente acessados para acelerar leituras futuras. MemFree representa memória livre, enquanto MemAvailable considera memória que pode ser disponibilizada às aplicações. O cache",
+      "trechos": [
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.1711,
+          "caracteres": 397
+        },
+        {
+          "documento": "memoria.txt",
+          "posicao": 1,
+          "similaridade": 0.1336,
+          "caracteres": 41
+        },
+        {
+          "documento": "memoria.txt",
+          "posicao": 0,
+          "similaridade": 0.1264,
+          "caracteres": 360
+        }
+      ],
+      "contexto_bytes": 831,
+      "contexto_tokens_aproximados": 122,
+      "recuperacao_s": 0.000897,
+      "resposta_s": 0.001128,
+      "processamento_original_s": 0.002025,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 6.1e-05,
+      "tempo_total_s": 0.002707,
+      "consumidor": "consumidor-1"
+    }
+  },
+  {
+    "consulta": "Explique memória virtual paginação, solicitação número 13.",
+    "http": 200,
+    "cliente_s": 0.003610985993873328,
+    "corpo": {
+      "consulta": "Explique memória virtual paginação, solicitação número 13.",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O sistema operacional gerencia a memória principal para compartilhar a RAM entre os processos. A memória virtual permite que cada processo use endereços próprios. A paginação organiza a memória em páginas e quadros. Uma falta de página ocor",
+      "trechos": [
+        {
+          "documento": "memoria.txt",
+          "posicao": 0,
+          "similaridade": 0.2845,
+          "caracteres": 399
+        },
+        {
+          "documento": "memoria.txt",
+          "posicao": 1,
+          "similaridade": 0.1336,
+          "caracteres": 41
+        },
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.1027,
+          "caracteres": 358
+        }
+      ],
+      "contexto_bytes": 829,
+      "contexto_tokens_aproximados": 123,
+      "recuperacao_s": 0.00048,
+      "resposta_s": 0.001274,
+      "processamento_original_s": 0.001754,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 5.9e-05,
+      "tempo_total_s": 0.002688,
+      "consumidor": "consumidor-2"
+    }
+  },
+  {
+    "consulta": "Explique cache de páginas Linux, solicitação número 14.",
+    "http": 200,
+    "cliente_s": 0.0038511670063599013,
+    "corpo": {
+      "consulta": "Explique cache de páginas Linux, solicitação número 14.",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O cache de páginas do Linux mantém em RAM dados de arquivos recentemente acessados para acelerar leituras futuras. MemFree representa memória livre, enquanto MemAvailable considera memória que pode ser disponibilizada às aplicações. O cache",
+      "trechos": [
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.4435,
+          "caracteres": 397
+        },
+        {
+          "documento": "concorrencia.txt",
+          "posicao": 0,
+          "similaridade": 0.2126,
+          "caracteres": 375
+        },
+        {
+          "documento": "rag.txt",
+          "posicao": 0,
+          "similaridade": 0.2052,
+          "caracteres": 26
+        }
+      ],
+      "contexto_bytes": 827,
+      "contexto_tokens_aproximados": 111,
+      "recuperacao_s": 0.000667,
+      "resposta_s": 0.001143,
+      "processamento_original_s": 0.00181,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 5e-05,
+      "tempo_total_s": 0.00282,
+      "consumidor": "consumidor-1"
+    }
+  },
+  {
+    "consulta": "Explique produtores consumidores mutex, solicitação número 15.",
+    "http": 200,
+    "cliente_s": 0.003991208999650553,
+    "corpo": {
+      "consulta": "Explique produtores consumidores mutex, solicitação número 15.",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: Produtores criam requisições e consumidores as retiram de uma fila compartilhada. Uma fila bloqueante com capacidade limitada pode impor espera aos produtores quando está cheia. Threads que atualizam o mesmo cache devem usar exclusão mútua ",
+      "trechos": [
+        {
+          "documento": "concorrencia.txt",
+          "posicao": 0,
+          "similaridade": 0.1968,
+          "caracteres": 375
+        },
+        {
+          "documento": "rag.txt",
+          "posicao": 0,
+          "similaridade": 0.038,
+          "caracteres": 389
+        }
+      ],
+      "contexto_bytes": 789,
+      "contexto_tokens_aproximados": 108,
+      "recuperacao_s": 0.0006,
+      "resposta_s": 0.001465,
+      "processamento_original_s": 0.002065,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 0.000275,
+      "tempo_total_s": 0.002968,
+      "consumidor": "consumidor-4"
+    }
+  },
+  {
+    "consulta": "Explique RAG embeddings índice, solicitação número 16.",
+    "http": 200,
+    "cliente_s": 0.005012622998037841,
+    "corpo": {
+      "consulta": "Explique RAG embeddings índice, solicitação número 16.",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O cache de páginas do Linux mantém em RAM dados de arquivos recentemente acessados para acelerar leituras futuras. MemFree representa memória livre, enquanto MemAvailable considera memória que pode ser disponibilizada às aplicações. O cache",
+      "trechos": [
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.2053,
+          "caracteres": 397
+        },
+        {
+          "documento": "memoria.txt",
+          "posicao": 1,
+          "similaridade": 0.1336,
+          "caracteres": 41
+        },
+        {
+          "documento": "memoria.txt",
+          "posicao": 0,
+          "similaridade": 0.0316,
+          "caracteres": 360
+        }
+      ],
+      "contexto_bytes": 831,
+      "contexto_tokens_aproximados": 122,
+      "recuperacao_s": 0.001261,
+      "resposta_s": 0.001872,
+      "processamento_original_s": 0.003132,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 0.000138,
+      "tempo_total_s": 0.003932,
+      "consumidor": "consumidor-3"
+    }
+  },
+  {
+    "consulta": "Explique arquivos mmap, solicitação número 17.",
+    "http": 200,
+    "cliente_s": 0.003913482993084472,
+    "corpo": {
+      "consulta": "Explique arquivos mmap, solicitação número 17.",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O cache de páginas do Linux mantém em RAM dados de arquivos recentemente acessados para acelerar leituras futuras. MemFree representa memória livre, enquanto MemAvailable considera memória que pode ser disponibilizada às aplicações. O cache",
+      "trechos": [
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.0905,
+          "caracteres": 397
+        },
+        {
+          "documento": "concorrencia.txt",
+          "posicao": 0,
+          "similaridade": 0.0651,
+          "caracteres": 375
+        },
+        {
+          "documento": "rag.txt",
+          "posicao": 0,
+          "similaridade": 0.0503,
+          "caracteres": 26
+        }
+      ],
+      "contexto_bytes": 827,
+      "contexto_tokens_aproximados": 111,
+      "recuperacao_s": 0.000958,
+      "resposta_s": 0.001569,
+      "processamento_original_s": 0.002528,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 9.3e-05,
+      "tempo_total_s": 0.00305,
+      "consumidor": "consumidor-2"
+    }
+  },
+  {
+    "consulta": "Explique swap memória virtual, solicitação número 18.",
+    "http": 200,
+    "cliente_s": 0.003247095002734568,
+    "corpo": {
+      "consulta": "Explique swap memória virtual, solicitação número 18.",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O sistema operacional gerencia a memória principal para compartilhar a RAM entre os processos. A memória virtual permite que cada processo use endereços próprios. A paginação organiza a memória em páginas e quadros. Uma falta de página ocor",
+      "trechos": [
+        {
+          "documento": "memoria.txt",
+          "posicao": 0,
+          "similaridade": 0.158,
+          "caracteres": 399
+        },
+        {
+          "documento": "memoria.txt",
+          "posicao": 1,
+          "similaridade": 0.1336,
+          "caracteres": 41
+        },
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.1027,
+          "caracteres": 358
+        }
+      ],
+      "contexto_bytes": 829,
+      "contexto_tokens_aproximados": 123,
+      "recuperacao_s": 0.00076,
+      "resposta_s": 0.001187,
+      "processamento_original_s": 0.001947,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 7.3e-05,
+      "tempo_total_s": 0.002479,
+      "consumidor": "consumidor-1"
+    }
+  },
+  {
+    "consulta": "Explique memória virtual paginação, solicitação número 19.",
+    "http": 200,
+    "cliente_s": 0.0038104790000943467,
+    "corpo": {
+      "consulta": "Explique memória virtual paginação, solicitação número 19.",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O sistema operacional gerencia a memória principal para compartilhar a RAM entre os processos. A memória virtual permite que cada processo use endereços próprios. A paginação organiza a memória em páginas e quadros. Uma falta de página ocor",
+      "trechos": [
+        {
+          "documento": "memoria.txt",
+          "posicao": 0,
+          "similaridade": 0.158,
+          "caracteres": 399
+        }
+      ],
+      "contexto_bytes": 416,
+      "contexto_tokens_aproximados": 65,
+      "recuperacao_s": 0.001017,
+      "resposta_s": 0.001418,
+      "processamento_original_s": 0.002435,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 6.2e-05,
+      "tempo_total_s": 0.002948,
+      "consumidor": "consumidor-4"
+    }
+  },
+  {
+    "consulta": "Explique cache de páginas Linux, solicitação número 20.",
+    "http": 200,
+    "cliente_s": 0.004613334000168834,
+    "corpo": {
+      "consulta": "Explique cache de páginas Linux, solicitação número 20.",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O cache de páginas do Linux mantém em RAM dados de arquivos recentemente acessados para acelerar leituras futuras. MemFree representa memória livre, enquanto MemAvailable considera memória que pode ser disponibilizada às aplicações. O cache",
+      "trechos": [
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.5432,
+          "caracteres": 397
+        },
+        {
+          "documento": "concorrencia.txt",
+          "posicao": 0,
+          "similaridade": 0.2604,
+          "caracteres": 375
+        },
+        {
+          "documento": "memoria.txt",
+          "posicao": 1,
+          "similaridade": 0.1768,
+          "caracteres": 26
+        }
+      ],
+      "contexto_bytes": 826,
+      "contexto_tokens_aproximados": 113,
+      "recuperacao_s": 0.001316,
+      "resposta_s": 0.001262,
+      "processamento_original_s": 0.002578,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 0.000203,
+      "tempo_total_s": 0.0035,
+      "consumidor": "consumidor-3"
+    }
+  },
+  {
+    "consulta": "Explique produtores consumidores mutex, solicitação número 21.",
+    "http": 200,
+    "cliente_s": 0.004824559997359756,
+    "corpo": {
+      "consulta": "Explique produtores consumidores mutex, solicitação número 21.",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: Produtores criam requisições e consumidores as retiram de uma fila compartilhada. Uma fila bloqueante com capacidade limitada pode impor espera aos produtores quando está cheia. Threads que atualizam o mesmo cache devem usar exclusão mútua ",
+      "trechos": [
+        {
+          "documento": "concorrencia.txt",
+          "posicao": 0,
+          "similaridade": 0.1968,
+          "caracteres": 375
+        }
+      ],
+      "contexto_bytes": 388,
+      "contexto_tokens_aproximados": 51,
+      "recuperacao_s": 0.002077,
+      "resposta_s": 0.001136,
+      "processamento_original_s": 0.003213,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 0.000116,
+      "tempo_total_s": 0.003904,
+      "consumidor": "consumidor-2"
+    }
+  },
+  {
+    "consulta": "Explique RAG embeddings índice, solicitação número 22.",
+    "http": 200,
+    "cliente_s": 0.003261521997046657,
+    "corpo": {
+      "consulta": "Explique RAG embeddings índice, solicitação número 22.",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: mais lento que o acesso à memória física. O cache de páginas do Linux mantém em RAM dados de arquivos recentemente acessados para acelerar leituras futuras. MemFree representa memória livre, enquanto MemAvailable considera memória que pode ",
+      "trechos": [
+        {
+          "documento": "memoria.txt",
+          "posicao": 1,
+          "similaridade": 0.1336,
+          "caracteres": 41
+        },
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.0684,
+          "caracteres": 397
+        },
+        {
+          "documento": "memoria.txt",
+          "posicao": 0,
+          "similaridade": 0.0316,
+          "caracteres": 360
+        }
+      ],
+      "contexto_bytes": 831,
+      "contexto_tokens_aproximados": 122,
+      "recuperacao_s": 0.000498,
+      "resposta_s": 0.001238,
+      "processamento_original_s": 0.001736,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 0.000138,
+      "tempo_total_s": 0.002354,
+      "consumidor": "consumidor-1"
+    }
+  },
+  {
+    "consulta": "Explique arquivos mmap, solicitação número 23.",
+    "http": 200,
+    "cliente_s": 0.0037307899983716197,
+    "corpo": {
+      "consulta": "Explique arquivos mmap, solicitação número 23.",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O cache de páginas do Linux mantém em RAM dados de arquivos recentemente acessados para acelerar leituras futuras. MemFree representa memória livre, enquanto MemAvailable considera memória que pode ser disponibilizada às aplicações. O cache",
+      "trechos": [
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.1358,
+          "caracteres": 397
+        },
+        {
+          "documento": "rag.txt",
+          "posicao": 0,
+          "similaridade": 0.1005,
+          "caracteres": 389
+        }
+      ],
+      "contexto_bytes": 812,
+      "contexto_tokens_aproximados": 113,
+      "recuperacao_s": 0.000679,
+      "resposta_s": 0.001327,
+      "processamento_original_s": 0.002006,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 0.000102,
+      "tempo_total_s": 0.00291,
+      "consumidor": "consumidor-4"
+    }
+  },
+  {
+    "consulta": "Explique swap memória virtual, solicitação número 24.",
+    "http": 200,
+    "cliente_s": 0.00344750899967039,
+    "corpo": {
+      "consulta": "Explique swap memória virtual, solicitação número 24.",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O sistema operacional gerencia a memória principal para compartilhar a RAM entre os processos. A memória virtual permite que cada processo use endereços próprios. A paginação organiza a memória em páginas e quadros. Uma falta de página ocor",
+      "trechos": [
+        {
+          "documento": "memoria.txt",
+          "posicao": 0,
+          "similaridade": 0.1896,
+          "caracteres": 399
+        },
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.1711,
+          "caracteres": 397
+        },
+        {
+          "documento": "memoria.txt",
+          "posicao": 1,
+          "similaridade": 0.1336,
+          "caracteres": 2
+        }
+      ],
+      "contexto_bytes": 829,
+      "contexto_tokens_aproximados": 122,
+      "recuperacao_s": 0.00058,
+      "resposta_s": 0.001016,
+      "processamento_original_s": 0.001597,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 0.000108,
+      "tempo_total_s": 0.002555,
+      "consumidor": "consumidor-1"
+    }
+  },
+  {
+    "consulta": "Explique memória virtual paginação, solicitação número 25.",
+    "http": 200,
+    "cliente_s": 0.0051245619979454204,
+    "corpo": {
+      "consulta": "Explique memória virtual paginação, solicitação número 25.",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O sistema operacional gerencia a memória principal para compartilhar a RAM entre os processos. A memória virtual permite que cada processo use endereços próprios. A paginação organiza a memória em páginas e quadros. Uma falta de página ocor",
+      "trechos": [
+        {
+          "documento": "memoria.txt",
+          "posicao": 0,
+          "similaridade": 0.2845,
+          "caracteres": 399
+        },
+        {
+          "documento": "memoria.txt",
+          "posicao": 1,
+          "similaridade": 0.1336,
+          "caracteres": 41
+        },
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.1027,
+          "caracteres": 358
+        }
+      ],
+      "contexto_bytes": 829,
+      "contexto_tokens_aproximados": 123,
+      "recuperacao_s": 0.001713,
+      "resposta_s": 0.001228,
+      "processamento_original_s": 0.002941,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 0.000111,
+      "tempo_total_s": 0.003891,
+      "consumidor": "consumidor-3"
+    }
+  },
+  {
+    "consulta": "Explique cache de páginas Linux, solicitação número 26.",
+    "http": 200,
+    "cliente_s": 0.0032611710048513487,
+    "corpo": {
+      "consulta": "Explique cache de páginas Linux, solicitação número 26.",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O cache de páginas do Linux mantém em RAM dados de arquivos recentemente acessados para acelerar leituras futuras. MemFree representa memória livre, enquanto MemAvailable considera memória que pode ser disponibilizada às aplicações. O cache",
+      "trechos": [
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.4066,
+          "caracteres": 397
+        },
+        {
+          "documento": "concorrencia.txt",
+          "posicao": 0,
+          "similaridade": 0.2657,
+          "caracteres": 375
+        },
+        {
+          "documento": "rag.txt",
+          "posicao": 0,
+          "similaridade": 0.1641,
+          "caracteres": 26
+        }
+      ],
+      "contexto_bytes": 827,
+      "contexto_tokens_aproximados": 111,
+      "recuperacao_s": 0.000563,
+      "resposta_s": 0.001033,
+      "processamento_original_s": 0.001595,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 5.8e-05,
+      "tempo_total_s": 0.002475,
+      "consumidor": "consumidor-2"
+    }
+  },
+  {
+    "consulta": "Explique produtores consumidores mutex, solicitação número 27.",
+    "http": 200,
+    "cliente_s": 0.0033476930038887076,
+    "corpo": {
+      "consulta": "Explique produtores consumidores mutex, solicitação número 27.",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: Produtores criam requisições e consumidores as retiram de uma fila compartilhada. Uma fila bloqueante com capacidade limitada pode impor espera aos produtores quando está cheia. Threads que atualizam o mesmo cache devem usar exclusão mútua ",
+      "trechos": [
+        {
+          "documento": "concorrencia.txt",
+          "posicao": 0,
+          "similaridade": 0.1968,
+          "caracteres": 375
+        },
+        {
+          "documento": "rag.txt",
+          "posicao": 0,
+          "similaridade": 0.038,
+          "caracteres": 389
+        }
+      ],
+      "contexto_bytes": 789,
+      "contexto_tokens_aproximados": 108,
+      "recuperacao_s": 0.000293,
+      "resposta_s": 0.001161,
+      "processamento_original_s": 0.001454,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 6.2e-05,
+      "tempo_total_s": 0.002154,
+      "consumidor": "consumidor-4"
+    }
+  },
+  {
+    "consulta": "Explique RAG embeddings índice, solicitação número 28.",
+    "http": 200,
+    "cliente_s": 0.003450946998782456,
+    "corpo": {
+      "consulta": "Explique RAG embeddings índice, solicitação número 28.",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O cache de páginas do Linux mantém em RAM dados de arquivos recentemente acessados para acelerar leituras futuras. MemFree representa memória livre, enquanto MemAvailable considera memória que pode ser disponibilizada às aplicações. O cache",
+      "trechos": [
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.1369,
+          "caracteres": 397
+        },
+        {
+          "documento": "memoria.txt",
+          "posicao": 1,
+          "similaridade": 0.1336,
+          "caracteres": 41
+        },
+        {
+          "documento": "memoria.txt",
+          "posicao": 0,
+          "similaridade": 0.0316,
+          "caracteres": 360
+        }
+      ],
+      "contexto_bytes": 831,
+      "contexto_tokens_aproximados": 122,
+      "recuperacao_s": 0.000974,
+      "resposta_s": 0.001074,
+      "processamento_original_s": 0.002048,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 7.7e-05,
+      "tempo_total_s": 0.002811,
+      "consumidor": "consumidor-1"
+    }
+  },
+  {
+    "consulta": "Explique arquivos mmap, solicitação número 29.",
+    "http": 200,
+    "cliente_s": 0.004048205002618488,
+    "corpo": {
+      "consulta": "Explique arquivos mmap, solicitação número 29.",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O cache de páginas do Linux mantém em RAM dados de arquivos recentemente acessados para acelerar leituras futuras. MemFree representa memória livre, enquanto MemAvailable considera memória que pode ser disponibilizada às aplicações. O cache",
+      "trechos": [
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.2218,
+          "caracteres": 397
+        },
+        {
+          "documento": "concorrencia.txt",
+          "posicao": 0,
+          "similaridade": 0.0531,
+          "caracteres": 375
+        }
+      ],
+      "contexto_bytes": 799,
+      "contexto_tokens_aproximados": 107,
+      "recuperacao_s": 0.001017,
+      "resposta_s": 0.001226,
+      "processamento_original_s": 0.002243,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 0.000156,
+      "tempo_total_s": 0.003322,
+      "consumidor": "consumidor-2"
+    }
+  },
+  {
+    "consulta": "Explique swap memória virtual, solicitação número 30.",
+    "http": 200,
+    "cliente_s": 0.0034584200038807467,
+    "corpo": {
+      "consulta": "Explique swap memória virtual, solicitação número 30.",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O sistema operacional gerencia a memória principal para compartilhar a RAM entre os processos. A memória virtual permite que cada processo use endereços próprios. A paginação organiza a memória em páginas e quadros. Uma falta de página ocor",
+      "trechos": [
+        {
+          "documento": "memoria.txt",
+          "posicao": 0,
+          "similaridade": 0.1896,
+          "caracteres": 399
+        },
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.1711,
+          "caracteres": 397
+        },
+        {
+          "documento": "memoria.txt",
+          "posicao": 1,
+          "similaridade": 0.1336,
+          "caracteres": 2
+        }
+      ],
+      "contexto_bytes": 829,
+      "contexto_tokens_aproximados": 122,
+      "recuperacao_s": 0.000754,
+      "resposta_s": 0.001054,
+      "processamento_original_s": 0.001808,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 8.7e-05,
+      "tempo_total_s": 0.002577,
+      "consumidor": "consumidor-4"
+    }
+  },
+  {
+    "consulta": "Explique memória virtual paginação, solicitação número 31.",
+    "http": 200,
+    "cliente_s": 0.0045336249968386255,
+    "corpo": {
+      "consulta": "Explique memória virtual paginação, solicitação número 31.",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O sistema operacional gerencia a memória principal para compartilhar a RAM entre os processos. A memória virtual permite que cada processo use endereços próprios. A paginação organiza a memória em páginas e quadros. Uma falta de página ocor",
+      "trechos": [
+        {
+          "documento": "memoria.txt",
+          "posicao": 0,
+          "similaridade": 0.2212,
+          "caracteres": 399
+        },
+        {
+          "documento": "memoria.txt",
+          "posicao": 1,
+          "similaridade": 0.1336,
+          "caracteres": 41
+        },
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.1027,
+          "caracteres": 358
+        }
+      ],
+      "contexto_bytes": 829,
+      "contexto_tokens_aproximados": 123,
+      "recuperacao_s": 0.001812,
+      "resposta_s": 0.001107,
+      "processamento_original_s": 0.00292,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 8.6e-05,
+      "tempo_total_s": 0.003668,
+      "consumidor": "consumidor-3"
+    }
+  },
+  {
+    "consulta": "Explique cache de páginas Linux, solicitação número 32.",
+    "http": 200,
+    "cliente_s": 0.002502529001503717,
+    "corpo": {
+      "consulta": "Explique cache de páginas Linux, solicitação número 32.",
+      "resposta": "Resposta simulada a partir dos trechos recuperados: O cache de páginas do Linux mantém em RAM dados de arquivos recentemente acessados para acelerar leituras futuras. MemFree representa memória livre, enquanto MemAvailable considera memória que pode ser disponibilizada às aplicações. O cache",
+      "trechos": [
+        {
+          "documento": "cache.txt",
+          "posicao": 0,
+          "similaridade": 0.4066,
+          "caracteres": 397
+        },
+        {
+          "documento": "concorrencia.txt",
+          "posicao": 0,
+          "similaridade": 0.2657,
+          "caracteres": 375
+        },
+        {
+          "documento": "rag.txt",
+          "posicao": 0,
+          "similaridade": 0.1641,
+          "caracteres": 26
+        }
+      ],
+      "contexto_bytes": 827,
+      "contexto_tokens_aproximados": 111,
+      "recuperacao_s": 0.000591,
+      "resposta_s": 0.001107,
+      "processamento_original_s": 0.001698,
+      "cache": "miss",
+      "economia_estimada_s": 0.0,
+      "espera_fila_s": 5.5e-05,
+      "tempo_total_s": 0.001999,
+      "consumidor": "consumidor-1"
+    }
+  }
+]

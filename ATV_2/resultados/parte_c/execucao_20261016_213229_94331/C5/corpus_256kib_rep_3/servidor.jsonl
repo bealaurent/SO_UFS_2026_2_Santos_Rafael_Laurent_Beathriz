@@ -1,0 +1,62 @@
+{"horario_utc": "2026-10-17T00:32:30.178+00:00", "evento": "inicializacao", "thread": "MainThread", "trabalhadores": 2, "capacidade_fila": 8, "capacidade_cache": 0, "banco": "/home/rafael/Documents/SO/SO_Code/AV2_Parte_B_GenResearch_complemento/resultados/parte_c/execucao_20261016_213229_94331/C5/corpus_256kib_rep_3/indice.sqlite3"}
+{"horario_utc": "2026-10-17T00:32:30.181+00:00", "evento": "http", "thread": "Thread-1 (process_request_thread)", "mensagem": "\"GET /saude HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:32:30.234+00:00", "evento": "ingestao", "thread": "Thread-2 (process_request_thread)", "documento": "corpus_c5.txt", "bytes": 262144, "trechos": 660, "ingestao_s": 0.049788}
+{"horario_utc": "2026-10-17T00:32:30.234+00:00", "evento": "http", "thread": "Thread-2 (process_request_thread)", "mensagem": "\"POST /documentos HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:32:30.235+00:00", "evento": "producao", "thread": "Thread-3 (process_request_thread)", "tamanho_fila": 1, "caracteres_consulta": 54}
+{"horario_utc": "2026-10-17T00:32:30.236+00:00", "evento": "consumo", "thread": "consumidor-1", "espera_fila_s": 0.000109, "tamanho_fila": 0}
+{"horario_utc": "2026-10-17T00:32:30.236+00:00", "evento": "producao", "thread": "Thread-4 (process_request_thread)", "tamanho_fila": 1, "caracteres_consulta": 57}
+{"horario_utc": "2026-10-17T00:32:30.236+00:00", "evento": "cache_miss", "thread": "consumidor-1", "chave": "f4979a899b51"}
+{"horario_utc": "2026-10-17T00:32:30.236+00:00", "evento": "consumo", "thread": "consumidor-2", "espera_fila_s": 0.00012, "tamanho_fila": 0}
+{"horario_utc": "2026-10-17T00:32:30.236+00:00", "evento": "cache_miss", "thread": "consumidor-2", "chave": "3435027498fb"}
+{"horario_utc": "2026-10-17T00:32:30.247+00:00", "evento": "recuperacao", "thread": "consumidor-1", "trechos": 0, "contexto_bytes": 0, "recuperacao_s": 0.011023}
+{"horario_utc": "2026-10-17T00:32:30.248+00:00", "evento": "geracao_simulada", "thread": "consumidor-1", "duracao_s": 0.001081, "caracteres_resposta": 58}
+{"horario_utc": "2026-10-17T00:32:30.248+00:00", "evento": "consulta_concluida", "thread": "consumidor-1", "cache": "miss", "duracao_s": 0.012789}
+{"horario_utc": "2026-10-17T00:32:30.248+00:00", "evento": "http", "thread": "Thread-3 (process_request_thread)", "mensagem": "\"POST /consultar HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:32:30.258+00:00", "evento": "recuperacao", "thread": "consumidor-2", "trechos": 3, "contexto_bytes": 800, "recuperacao_s": 0.021953}
+{"horario_utc": "2026-10-17T00:32:30.258+00:00", "evento": "producao", "thread": "Thread-5 (process_request_thread)", "tamanho_fila": 1, "caracteres_consulta": 61}
+{"horario_utc": "2026-10-17T00:32:30.258+00:00", "evento": "consumo", "thread": "consumidor-1", "espera_fila_s": 9.6e-05, "tamanho_fila": 0}
+{"horario_utc": "2026-10-17T00:32:30.258+00:00", "evento": "cache_miss", "thread": "consumidor-1", "chave": "3b3faed12c50"}
+{"horario_utc": "2026-10-17T00:32:30.259+00:00", "evento": "geracao_simulada", "thread": "consumidor-2", "duracao_s": 0.001029, "caracteres_resposta": 292}
+{"horario_utc": "2026-10-17T00:32:30.259+00:00", "evento": "consulta_concluida", "thread": "consumidor-2", "cache": "miss", "duracao_s": 0.023803}
+{"horario_utc": "2026-10-17T00:32:30.260+00:00", "evento": "http", "thread": "Thread-4 (process_request_thread)", "mensagem": "\"POST /consultar HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:32:30.260+00:00", "evento": "producao", "thread": "Thread-6 (process_request_thread)", "tamanho_fila": 1, "caracteres_consulta": 53}
+{"horario_utc": "2026-10-17T00:32:30.260+00:00", "evento": "consumo", "thread": "consumidor-2", "espera_fila_s": 0.000104, "tamanho_fila": 0}
+{"horario_utc": "2026-10-17T00:32:30.260+00:00", "evento": "cache_miss", "thread": "consumidor-2", "chave": "3f88c9c73640"}
+{"horario_utc": "2026-10-17T00:32:30.271+00:00", "evento": "recuperacao", "thread": "consumidor-2", "trechos": 3, "contexto_bytes": 800, "recuperacao_s": 0.010663}
+{"horario_utc": "2026-10-17T00:32:30.278+00:00", "evento": "geracao_simulada", "thread": "consumidor-2", "duracao_s": 0.006986, "caracteres_resposta": 292}
+{"horario_utc": "2026-10-17T00:32:30.281+00:00", "evento": "recuperacao", "thread": "consumidor-1", "trechos": 0, "contexto_bytes": 0, "recuperacao_s": 0.022957}
+{"horario_utc": "2026-10-17T00:32:30.282+00:00", "evento": "consulta_concluida", "thread": "consumidor-2", "cache": "miss", "duracao_s": 0.021368}
+{"horario_utc": "2026-10-17T00:32:30.282+00:00", "evento": "http", "thread": "Thread-6 (process_request_thread)", "mensagem": "\"POST /consultar HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:32:30.282+00:00", "evento": "producao", "thread": "Thread-7 (process_request_thread)", "tamanho_fila": 1, "caracteres_consulta": 45}
+{"horario_utc": "2026-10-17T00:32:30.283+00:00", "evento": "consumo", "thread": "consumidor-2", "espera_fila_s": 6.8e-05, "tamanho_fila": 0}
+{"horario_utc": "2026-10-17T00:32:30.283+00:00", "evento": "cache_miss", "thread": "consumidor-2", "chave": "571f2fd1fd98"}
+{"horario_utc": "2026-10-17T00:32:30.283+00:00", "evento": "geracao_simulada", "thread": "consumidor-1", "duracao_s": 0.001184, "caracteres_resposta": 58}
+{"horario_utc": "2026-10-17T00:32:30.283+00:00", "evento": "consulta_concluida", "thread": "consumidor-1", "cache": "miss", "duracao_s": 0.024575}
+{"horario_utc": "2026-10-17T00:32:30.283+00:00", "evento": "http", "thread": "Thread-5 (process_request_thread)", "mensagem": "\"POST /consultar HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:32:30.284+00:00", "evento": "producao", "thread": "Thread-8 (process_request_thread)", "tamanho_fila": 1, "caracteres_consulta": 52}
+{"horario_utc": "2026-10-17T00:32:30.284+00:00", "evento": "consumo", "thread": "consumidor-1", "espera_fila_s": 7e-05, "tamanho_fila": 0}
+{"horario_utc": "2026-10-17T00:32:30.284+00:00", "evento": "cache_miss", "thread": "consumidor-1", "chave": "cde0cabd4175"}
+{"horario_utc": "2026-10-17T00:32:30.297+00:00", "evento": "recuperacao", "thread": "consumidor-2", "trechos": 0, "contexto_bytes": 0, "recuperacao_s": 0.014251}
+{"horario_utc": "2026-10-17T00:32:30.304+00:00", "evento": "geracao_simulada", "thread": "consumidor-2", "duracao_s": 0.007056, "caracteres_resposta": 58}
+{"horario_utc": "2026-10-17T00:32:30.307+00:00", "evento": "recuperacao", "thread": "consumidor-1", "trechos": 3, "contexto_bytes": 800, "recuperacao_s": 0.023446}
+{"horario_utc": "2026-10-17T00:32:30.307+00:00", "evento": "consulta_concluida", "thread": "consumidor-2", "cache": "miss", "duracao_s": 0.024815}
+{"horario_utc": "2026-10-17T00:32:30.307+00:00", "evento": "http", "thread": "Thread-7 (process_request_thread)", "mensagem": "\"POST /consultar HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:32:30.308+00:00", "evento": "producao", "thread": "Thread-9 (process_request_thread)", "tamanho_fila": 1, "caracteres_consulta": 57}
+{"horario_utc": "2026-10-17T00:32:30.308+00:00", "evento": "consumo", "thread": "consumidor-2", "espera_fila_s": 8.4e-05, "tamanho_fila": 0}
+{"horario_utc": "2026-10-17T00:32:30.308+00:00", "evento": "cache_miss", "thread": "consumidor-2", "chave": "dce79bdc0ff5"}
+{"horario_utc": "2026-10-17T00:32:30.308+00:00", "evento": "geracao_simulada", "thread": "consumidor-1", "duracao_s": 0.001053, "caracteres_resposta": 292}
+{"horario_utc": "2026-10-17T00:32:30.308+00:00", "evento": "consulta_concluida", "thread": "consumidor-1", "cache": "miss", "duracao_s": 0.024868}
+{"horario_utc": "2026-10-17T00:32:30.309+00:00", "evento": "http", "thread": "Thread-8 (process_request_thread)", "mensagem": "\"POST /consultar HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:32:30.309+00:00", "evento": "producao", "thread": "Thread-10 (process_request_thread)", "tamanho_fila": 1, "caracteres_consulta": 54}
+{"horario_utc": "2026-10-17T00:32:30.309+00:00", "evento": "consumo", "thread": "consumidor-1", "espera_fila_s": 7.1e-05, "tamanho_fila": 0}
+{"horario_utc": "2026-10-17T00:32:30.309+00:00", "evento": "cache_miss", "thread": "consumidor-1", "chave": "efcd6e463f20"}
+{"horario_utc": "2026-10-17T00:32:30.321+00:00", "evento": "recuperacao", "thread": "consumidor-2", "trechos": 3, "contexto_bytes": 800, "recuperacao_s": 0.012551}
+{"horario_utc": "2026-10-17T00:32:30.327+00:00", "evento": "geracao_simulada", "thread": "consumidor-2", "duracao_s": 0.006181, "caracteres_resposta": 292}
+{"horario_utc": "2026-10-17T00:32:30.331+00:00", "evento": "recuperacao", "thread": "consumidor-1", "trechos": 0, "contexto_bytes": 0, "recuperacao_s": 0.0215}
+{"horario_utc": "2026-10-17T00:32:30.331+00:00", "evento": "consulta_concluida", "thread": "consumidor-2", "cache": "miss", "duracao_s": 0.02282}
+{"horario_utc": "2026-10-17T00:32:30.331+00:00", "evento": "http", "thread": "Thread-9 (process_request_thread)", "mensagem": "\"POST /consultar HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:32:30.332+00:00", "evento": "geracao_simulada", "thread": "consumidor-1", "duracao_s": 0.001097, "caracteres_resposta": 58}
+{"horario_utc": "2026-10-17T00:32:30.332+00:00", "evento": "consulta_concluida", "thread": "consumidor-1", "cache": "miss", "duracao_s": 0.022972}
+{"horario_utc": "2026-10-17T00:32:30.332+00:00", "evento": "http", "thread": "Thread-10 (process_request_thread)", "mensagem": "\"POST /consultar HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:32:30.333+00:00", "evento": "http", "thread": "Thread-11 (process_request_thread)", "mensagem": "\"GET /status HTTP/1.1\" 200 -"}
+{"horario_utc": "2026-10-17T00:32:30.335+00:00", "evento": "encerramento", "thread": "MainThread", "status": {"fila_e_processamento": {"produtores_requisicoes": 8, "consumidores_processamentos": 8, "requisições_concluídas": 8, "falhas": 0, "fila_amostras": 8, "fila_soma": 8, "fila_maxima": 1, "espera_fila_total_s": 0.0007227520109154284, "tempo_total_requisicoes_s": 0.17801, "espera_media_fila_s": 9e-05, "tamanho_medio_fila_amostrado": 1.0, "tamanho_atual_fila": 0, "trabalhadores": 2}, "cache": {"capacidade": 0, "tamanho": 0, "acertos": 0, "erros": 8, "substituicoes": 0, "taxa_acerto": 0.0, "tempo_economizado_estimado_s": 0.0}, "armazenamento": {"documentos": 1, "corpus_bytes": 262144, "trechos": 660, "indice_bytes": 716800}}}

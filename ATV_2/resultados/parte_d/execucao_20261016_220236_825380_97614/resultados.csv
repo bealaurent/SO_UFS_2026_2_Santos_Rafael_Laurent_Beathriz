@@ -1,0 +1,7 @@
+configuracao,repeticao,trabalhadores,atraso_simulado_ms,consultas,respostas_concluidas,respostas_distintas,geracoes_realizadas,geracoes_duplicadas,cache_hits,cache_misses,cache_entradas,tempo_lote_s,latencia_media_s,espera_mutex_media_s,falhas,sucesso
+D1,1,4,30,4,4,1,4,3,0,4,1,0.03325225,0.03278479,0.0,0,True
+D1,2,4,30,4,4,1,4,3,0,4,1,0.03293635,0.03241969,0.0,0,True
+D1,3,4,30,4,4,1,4,3,0,4,1,0.03344234,0.03275391,0.0,0,True
+D2,1,4,30,4,4,1,1,0,3,1,1,0.03343034,0.03286544,0.02398218,0,True
+D2,2,4,30,4,4,1,1,0,3,1,1,0.03273829,0.03196235,0.02356411,0,True
+D2,3,4,30,4,4,1,1,0,3,1,1,0.03322188,0.03274043,0.02405391,0,True
