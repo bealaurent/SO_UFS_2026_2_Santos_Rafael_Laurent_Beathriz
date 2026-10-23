@@ -28,7 +28,9 @@ SO_UFS_2026_2_Santos_Rafael_Laurent_Beathriz/
 │   ├── docs/
 │   │   ├── PARTE_B.md
 │   │   ├── PARTE_C.md
-│   │   └── PARTE_D.md
+│   │   ├── PARTE_D.md
+│   │   ├── Segundo_Relatorio_de_SO.pdf # Relatório
+│   │   └── Slides_apresentacao.pdf     # Slides
 │   ├── evidencias/                   # Saídas do terminal e strace
 │   ├── logs/                         # Eventos estruturados JSONL
 │   ├── resultados/                   # CSV, JSON e logs dos ensaios
