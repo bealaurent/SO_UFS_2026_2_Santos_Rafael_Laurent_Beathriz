@@ -1,0 +1,18 @@
+# Atividade 3 — não publicar a cópia aninhada do kit
+/AV3_Parte_C_Adaptacao_AV2/
+
+# Arquivos Python e ambientes locais
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+
+# Temporários de edição e OS
+*~
+.DS_Store
+
+# IMPORTANTE: NÃO ignorar resultados/, evidencias/, *.json, *.csv, *.svg,
+# manifesto.txt ou logs (*.txt): são evidências exigidas pelo enunciado.

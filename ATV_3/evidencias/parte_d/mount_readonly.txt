@@ -1,0 +1,5 @@
+===== TESTE DE LEITURA =====
+Documento sintetico da AV3
+===== TESTE DE ESCRITA =====
+sh: 6: cannot create /dados/tentativa.txt: Read-only file system
+SUCESSO: escrita negada

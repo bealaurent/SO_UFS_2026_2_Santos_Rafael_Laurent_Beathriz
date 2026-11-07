@@ -1,0 +1,22 @@
+===== CONTÊINER: av3-ns-a =====
+PID no host do daemon=39466
+Processo PID 1:
+sleep
+Namespace pid:
+pid:[4026532892]
+Namespace mnt:
+mnt:[4026532880]
+Namespace net:
+net:[4026532894]
+
+===== CONTÊINER: av3-ns-b =====
+PID no host do daemon=39524
+Processo PID 1:
+sleep
+Namespace pid:
+pid:[4026532964]
+Namespace mnt:
+mnt:[4026532961]
+Namespace net:
+net:[4026532966]
+

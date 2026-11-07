@@ -1,0 +1,63 @@
+{
+  "condicao": "C2",
+  "repeticao": 1,
+  "docker_exit_code": 0,
+  "status": "ok",
+  "cgroup": {
+    "cpu.max": "100000 100000",
+    "memory.max": "268435456",
+    "memory.swap.max": "0",
+    "pids.max": "64"
+  },
+  "checksum_sha256": "6140a0e6e3548422e6e8c59c884ffe5abe1255848c5af557e0fe934a3afc66d7",
+  "cpu_stat_antes": {
+    "burst_usec": 0,
+    "core_sched.force_idle_usec": 0,
+    "nice_usec": 0,
+    "nr_bursts": 0,
+    "nr_periods": 2,
+    "nr_throttled": 0,
+    "system_usec": 12101,
+    "throttled_usec": 0,
+    "usage_usec": 121011,
+    "user_usec": 108910
+  },
+  "cpu_stat_delta": {
+    "nr_throttled": 2,
+    "throttled_usec": 1099,
+    "usage_usec": 2649150
+  },
+  "cpu_stat_depois": {
+    "burst_usec": 0,
+    "core_sched.force_idle_usec": 0,
+    "nice_usec": 0,
+    "nr_bursts": 0,
+    "nr_periods": 28,
+    "nr_throttled": 2,
+    "system_usec": 13005,
+    "throttled_usec": 1099,
+    "usage_usec": 2770161,
+    "user_usec": 2757156
+  },
+  "erro": null,
+  "imagem_python": "3.12.16",
+  "iteracoes": 20000000,
+  "limites_confirmados": true,
+  "limites_verificados": {
+    "cpu": true,
+    "memory": true,
+    "pids": true,
+    "swap": true
+  },
+  "memory.current_bytes": 12849152,
+  "memory.peak_bytes": 13271040,
+  "pid_contêiner": 1,
+  "rss": {
+    "VmHWM_kib": 21720,
+    "VmRSS_kib": 21720,
+    "VmSize_kib": 28152
+  },
+  "tempo_cpu_s": 2.64855899,
+  "tempo_total_s": 2.64995323,
+  "trabalho_por_segundo": 7547303.01
+}
