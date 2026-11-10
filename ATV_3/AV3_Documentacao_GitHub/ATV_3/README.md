@@ -32,7 +32,9 @@ ATV_3/
 ├── dados_demo/
 │   └── texto.txt                     # Arquivo sintético usado na Parte D
 ├── docs/
-│   └── REUSO_AV2_AV3.md              # Origem e adaptações realizadas da AV2
+│   ├── Relatorio_Atividade_3_SO.pdf  # Relatório
+│   ├── REUSO_AV2_AV3.md              # Origem e adaptações realizadas da AV2
+│   └── Slides.pdf                    # Slides Apresentação
 ├── evidencias/
 │   ├── parte_a/                      # Inventário de host/daemon e ambiente
 │   ├── parte_b/
